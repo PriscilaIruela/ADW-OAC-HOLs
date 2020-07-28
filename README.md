@@ -4,13 +4,13 @@
 ![](media/image2.jpg){width="8.259842519685039in"
 height="4.1299212598425195in"}
 
-Table of Contents
+## Table of Contents
 
-[1 Lab Introduction 3](#lab-introduction)
+[1 Lab Introduction](#lab-introduction)
 
-[1.1 Lab technical requirement 3](#lab-technical-requirement)
+[1.1 Lab technical requirement](#lab-technical-requirement)
 
-[2 Getting Started 4](#getting-started)
+[2 Getting Started](#getting-started)
 
 [2.1 Lab 000 - Creating and connecting to your Oracle Cloud Free Tier
 Account
