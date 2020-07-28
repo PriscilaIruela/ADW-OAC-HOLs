@@ -12,131 +12,85 @@ height="4.1299212598425195in"}
 
 [2 Getting Started](#getting-started)
 
-[2.1 Lab 000 - Creating and connecting to your Oracle Cloud Free Tier
-Account
-4](#lab-000---creating-and-connecting-to-your-oracle-cloud-free-tier-account)
+[2.1 Lab 000 - Creating and connecting to your Oracle Cloud Free Tier Account](#lab-000---creating-and-connecting-to-your-oracle-cloud-free-tier-account)
 
-[2.2 Lab 100 - Provisioning your Autonomous Database instance
-7](#lab-100---provisioning-your-autonomous-database-instance)
+[2.2 Lab 100 - Provisioning your Autonomous Database instance](#lab-100---provisioning-your-autonomous-database-instance)
 
-[2.2.1 About Configuring Auto-Scaling in the Autonomous Database -
-Optional
-12](#about-configuring-auto-scaling-in-the-autonomous-database---optional)
+[2.2.1 About Configuring Auto-Scaling in the Autonomous Database - Optional](#about-configuring-auto-scaling-in-the-autonomous-database---optional)
 
-[2.2.2 Accessing the Performance Hub - Optional
-14](#accessing-the-performance-hub---optional)
+[2.2.2 Accessing the Performance Hub - Optional](#accessing-the-performance-hub---optional)
 
-[2.3 Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance
-16](#lab-200---provisioning-your-oracle-analytics-cloud-oac-instance)
+[2.3 Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance](#lab-200---provisioning-your-oracle-analytics-cloud-oac-instance)
 
-[2.4 Lab 300 - Using Oracle Analytics Cloud (OAC)
-22](#lab-300---using-oracle-analytics-cloud-oac)
+[2.4 Lab 300 - Using Oracle Analytics Cloud (OAC)](#lab-300---using-oracle-analytics-cloud-oac)
 
-[2.4.1 Create the connection from Oracle Analytics Cloud to Autonomous
-Database
-22](#create-the-connection-from-oracle-analytics-cloud-to-autonomous-database)
+[2.4.1 Create the connection from Oracle Analytics Cloud to Autonomous Database](#create-the-connection-from-oracle-analytics-cloud-to-autonomous-database)
 
-[2.4.2 Prepare the dataset 29](#prepare-the-dataset)
+[2.4.2 Prepare the dataset](#prepare-the-dataset)
 
-[2.4.3 Create Visualizations using your data sets
-34](#create-visualizations-using-your-data-sets)
+[2.4.3 Create Visualizations using your data sets](#create-visualizations-using-your-data-sets)
 
-[Appendix A - Provisioning an Oracle Analytics Cloud Instance
-58](#appendix-a---provisioning-an-oracle-analytics-cloud-instance)
+[Appendix A - Provisioning an Oracle Analytics Cloud Instance](#appendix-a---provisioning-an-oracle-analytics-cloud-instance)
 
-[Want to learn more about ADW & OAC?
-64](#want-to-learn-more-about-adw-oac)
+[Want to learn more about ADW & OAC?](#want-to-learn-more-about-adw-oac)
 
-Lab Introduction
-================
+## Lab Introduction
 
-In this hands-on lab, you will get first-hand experience of using Oracle
-Cloud, Oracle Autonomous Database (ADB) and Oracle Analytics Cloud
-(OAC).
+In this hands-on lab, you will get first-hand experience of using Oracle Cloud, Oracle Autonomous Database (ADB) and Oracle Analytics Cloud (OAC).
 
-Oracle Autonomous Database (ADB) delivers a self-driving, self-securing,
-self-repairing database service that can instantly scale to meet
-demands. The service supports two workload types:
+Oracle Autonomous Database (ADB) delivers a self-driving, self-securing,self-repairing database service that can instantly scale to meet demands. The service supports two workload types:
 
--   Oracle Autonomous Data Warehouse (ADW) provides an autonomous
-    warehousing environment, associated with fast query performance.
+-   Oracle Autonomous Data Warehouse (ADW) provides an autonomous warehousing environment, associated with fast query performance.
 
--   Oracle Autonomous Transaction Processing (ATP) provides an
-    autonomous online transaction processing and mixed workload
-    environment.
+-   Oracle Autonomous Transaction Processing (ATP) provides an autonomous online transaction processing and mixed workload environment.
 
-For the purpose of this lab, we will use ADW so all the steps will be
-related to this database service.
+For the purpose of this lab, we will use ADW so all the steps will be related to this database service.
 
-Oracle Analytics Cloud (OAC) is a scalable and secure public cloud
-service that provides a full set of capabilities to explore and perform
-collaborative analytics for you, your workgroup, and your enterprise.
+Oracle Analytics Cloud (OAC) is a scalable and secure public cloud service that provides a full set of capabilities to explore and perform collaborative analytics for you, your workgroup, and your enterprise.
 
-With Oracle Analytics Cloud, you also get flexible service management
-capabilities, including fast setup, easy scaling and patching, and
-automated lifecycle management.
+With Oracle Analytics Cloud, you also get flexible service management capabilities, including fast setup, easy scaling and patching, and automated lifecycle management.
 
-To run the lab, you will need an Oracle Free Tier Account, with a
-provisioned ADW instance and a a provisioned OAC instance. This
-pre-requisite guide will take you step-by-step through how to get the
-account and set the instance up, to be ready to start the lab.
+To run the lab, you will need an Oracle Free Tier Account, with a provisioned ADW instance and a a provisioned OAC instance. This pre-requisite guide will take you step-by-step through how to get the account and set the instance up, to be ready to start the lab.
 
-Lab technical requirement
--------------------------
+## Lab Techincal Requirement
 
-This lab requires you to install the following desktop applications so
-that you can complete this hands-on lab:
+This lab requires you to install the following desktop applications so that you can complete this hands-on lab:
 
 -   PDF File reader.
-
 -   A web browser. The lab guide was created using Google Chrome.
 
-As you will be registering for services in Oracle Cloud, you will also
-need:
+As you will be registering for services in Oracle Cloud, you will also need:
 
 -   Access to the email account used to register for the workshop.
 
 -   A cell phone to receive an SMS for account verification processes.
 
-Getting Started
-===============
+## Getting Started
 
-This section of the lab will take you through all the required
-preparation steps. You will:
+This section of the lab will take you through all the required preparation steps. You will:
 
--   Lab 000 - Creating and connecting to your Oracle Cloud Free Tier
-    account.
+-   Lab 000 - Creating and connecting to your Oracle Cloud Free Tier account.
 
 -   Lab 100 - Provisioning your Autonomous Database instance.
 
 -   Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance.
 
-Lab 000 - Creating and connecting to your Oracle Cloud Free Tier Account
-------------------------------------------------------------------------
+## Lab 000 - Creating and connecting to your Oracle Cloud Free Tier Account
 
-During this workshop, you will use an Oracle Cloud Free Tier Account to
-run the Lab exercises. This account will give you access to the Always
-Free resources in Oracle Cloud Free Tier and a limited time trial period
-with an expanded set of services. Once this period elapses, you can
-continue to use the Always Free resources with no interruptions.
+During this workshop, you will use an Oracle Cloud Free Tier Account to run the Lab exercises. This account will give you access to the Always Free resources in Oracle Cloud Free Tier and a limited time trial period with an expanded set of services. Once this period elapses, you can continue to use the Always Free resources with no interruptions.
 
-Always Free and Free Trial instances can be seamlessly upgraded to pay
-at any time. Existing Oracle Cloud customers have access to Always Free
-services automatically---no new sign up required.
+Always Free and Free Trial instances can be seamlessly upgraded to pay at any time. Existing Oracle Cloud customers have access to Always Free services automatically---no new sign up required.
 
-To learn more about Oracle Cloud Always Free and Free Trial account
-check the following link:
+To learn more about Oracle Cloud Always Free and Free Trial account check the following link:
 
 <https://www.oracle.com/cloud/free/#always-free>
 
-As part of your sign up to this lab, you will have been provided a link
-to sign up to Oracle Cloud Free Tier. Please make sure you:
+As part of your sign up to this lab, you will have been provided a link to sign up to Oracle Cloud Free Tier. Please make sure you:
 
 -   Use the following URL - [Sign Up for Oracle
     Cloud](https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType=undefined&sourceType=:ow:evp:cpo:::RC_WWMK200720P00081:OER400073848&intcmp=:ow:evp:cpo:::RC_WWMK200720P00081:OER400073848)
 
--   Use a **[personal email address]{.ul}** that you will use during all
-    the workshop process.
+-   Use a **[personal email address]{.ul}** that you will use during all the workshop process.
 
 On the sign up page, enter your email address, select your
 Country/Territory and click \"Next\".
@@ -144,21 +98,12 @@ Country/Territory and click \"Next\".
 ![](media/image3.png){width="3.5576924759405073in"
 height="2.899212598425197in"}
 
-On the *\"Enter Account Details\"* page you will be asked for ***Account
-Type*,** please select *Company Use* or *Personal Use* considering the
-purpose of this cloud account.
+On the *\"Enter Account Details\"* page you will be asked for ***Account Type*,** please select *Company Use* or *Personal Use* considering the purpose of this cloud account.
 
-You will also be asked for the Cloud Account Name (also known as Tenancy
-Name). This will uniquely identify your cloud account and will be
-visible in your URL later, so please choose wisely.
+You will also be asked for the Cloud Account Name (also known as Tenancy Name). This will uniquely identify your cloud account and will be visible in your URL later, so please choose wisely.
 
-Finally, you will be asked also for the \"Home Region\". This is the
-location of the physical datacenter. You should select a datacenter that
-is geographically close to you and supports the required services. For
-this lab, select either UK South (London) or Germany Central
-(Frankfurt). This is because Oracle Analytics Cloud (OAC) is currently
-only available in UK South (London) and Germany Central (Frankfurt). You
-can review which services are available in each region using this page:
+Finally, you will be asked also for the \"Home Region\". This is the location of the physical datacenter. You should select a datacenter that is geographically close to you and supports the required services. For this lab, select either UK South (London) or Germany Central (Frankfurt). This is because Oracle Analytics Cloud (OAC) is currently
+only available in UK South (London) and Germany Central (Frankfurt). You can review which services are available in each region using this page:
 
 <https://www.oracle.com/uk/cloud/data-regions.html#emea>
 
