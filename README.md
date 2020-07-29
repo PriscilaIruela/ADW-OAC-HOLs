@@ -92,8 +92,8 @@ As part of your sign up to this lab, you will have been provided a link to sign 
 On the sign up page, enter your email address, select your
 Country/Territory and click \"Next\".
 
-![](media/image3.png){width="3.5576924759405073in"
-height="2.899212598425197in"}
+![Oracle Cloud Web Console](./images/sign_up.png)
+
 
 On the *\"Enter Account Details\"* page you will be asked for ***Account Type*,** please select *Company Use* or *Personal Use* considering the purpose of this cloud account.
 
@@ -104,16 +104,14 @@ only available in UK South (London) and Germany Central (Frankfurt). You can rev
 
 <https://www.oracle.com/uk/cloud/data-regions.html#emea>
 
-![](media/image4.png){width="3.760813648293963in"
-height="2.4605325896762906in"}
+![Oracle Cloud Web Console](./images/sign_up2.png)
 
 Complete all other mandatory fields on the form (indicated with a \*)
 and select **next**. **Verify Your Mobile Phone Number**.
 
 You will be prompted to enter the code sent to your cell phone.
 
-![](media/image5.png){width="3.836538713910761in"
-height="3.04576334208224in"}
+![Oracle Cloud Web Console](./images/sign_up3.png)
 
 At the end of this process, you will receive an email titled \"Get
 Started Now with Oracle Cloud\". This will contain all the information
@@ -124,11 +122,7 @@ To login to your cloud account, use the same email address that you used
 for registration and the password provided in the email. You will be
 prompted to set a new, more memorable password.
 
-![](media/image6.png){width="5.7615387139107614in"
-height="3.200418853893263in"}
-
-![](media/image7.png){width="6.268055555555556in"
-height="2.8835739282589676in"}
+![Oracle Cloud Web Console](./images/sign_up4.png)
 
 Lab 100 - Provisioning your Autonomous Database instance
 --------------------------------------------------------
