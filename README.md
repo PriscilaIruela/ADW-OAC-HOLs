@@ -124,48 +124,32 @@ prompted to set a new, more memorable password.
 
 ![Oracle Cloud Web Console](./images/sign_up4.png)
 
-Lab 100 - Provisioning your Autonomous Database instance
---------------------------------------------------------
+## Lab 100 - Provisioning your Autonomous Database instance
 
-Click on the hamburger **MENU** link at the upper left corner of the
-page.
+Click on the hamburger **MENU** link at the upper left corner of the page.
 
-This will produce a drop-down menu, where you should select **Autonomous
-Data Warehouse.**
+This will produce a drop-down menu, where you should select **Autonomous Data Warehouse.**
 
-![](media/image8.png){width="3.1458333333333335in"
-height="5.989583333333333in"}
+![Oracle Cloud Web Console](./images/lab100_1.png)
 
 This will take you to the management console page.
 
-To create a new instance, click the blue **Create Autonomous Database**
-button.
+To create a new instance, click the blue **Create Autonomous Database** button.
 
-![](media/image9.png){width="2.625in" height="1.4563757655293088in"}
+![Oracle Cloud Web Console](./images/lab100_2.png)
 
-Enter the required information and click the **Create Autonomous
-Database** button at the bottom of the form. For the purposes of this
-lab, use the information below:
+Enter the required information and click the **Create Autonomous Database** button at the bottom of the form. For the purposes of this lab, use the information below:
 
-> **Compartment:** Verify that a compartment (*\<tenancy_name\>*) is
-> selected.
-
-By default, any OCI tenancy has a default ***root*** compartment, named
-after the tenancy itself. The tenancy administrator (default root
-compartment administrator) is any user who is a member of the default
-Administrators group. For the lab purpose, you can use ***root***.
+>**Compartment:** Verify that a compartment (*\<tenancy_name\>*) is selected.
+>
+By default, any OCI tenancy has a default ***root*** compartment, named after the tenancy itself. The tenancy administrator (default root compartment administrator) is any user who is a member of the default Administrators group. For the lab purpose, you can use ***root***.
 
 You can learn more about compartments in this link:
 <https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Tasks/managingcompartments.htm>
 
-> **Display Name:** Enter the display name for your ADW Instance. For
-> this demo purpose, I have called my database **ADW_OAC**.
+> **Display Name:** Enter the display name for your ADW Instance. For this demo purpose, I have called my database **ADW_OAC**.
 >
-> **Database Name:** Enter any database name you choose that fits the
-> requirements for ADW. The database name must consist of letters and
-> numbers only, starting with a letter. The maximum length is 14
-> characters. You can leave the name provided. That field is not a
-> mandatory one.
+> **Database Name:** Enter any database name you choose that fits the requirements for ADW. The database name must consist of letters and numbers only, starting with a letter. The maximum length is 14 characters. You can leave the name provided. That field is not a mandatory one.
 >
 > **Workload Type:** Autonomous Data Warehouse
 >
@@ -178,8 +162,7 @@ check the following link:
 
 <https://www.oracle.com/uk/cloud/free/#always-free>
 
-![](media/image10.png){width="6.268055555555556in"
-height="3.4722222222222223in"}
+![Oracle Cloud Web Console](./images/lab100_3.png)
 
 > **Choose Database version:** 19c
 >
@@ -187,21 +170,17 @@ height="3.4722222222222223in"}
 >
 > **Storage Capacity (TB):** 0.02
 >
-> **CPU Count and Storage Capacity (TB)** are defined by default for the
-> Always Free Tier.
+> **CPU Count and Storage Capacity (TB)** are defined by default for the Always Free Tier.
 >
 > **Auto scaling:** Off
 
-![](media/image11.png){width="6.268055555555556in" height="1.61875in"}
+![Oracle Cloud Web Console](./images/lab100_4.png)
 
 Under **Create administration credentials** section:
 
-> **Administrator Password:** Enter any password you wish to use noting
-> the specific requirements imposed by ADW. A suggested password for
-> this lab is ADWwelcome-1234
+> **Administrator Password:** Enter any password you wish to use nothing the specific requirements imposed by ADW. A suggested password for this lab is ADWwelcome-1234
 >
-> ***Reminder:** Note your password in a safe location as this cannot be
-> reset.*
+> ***Reminder:** Note your password in a safe location as this cannot be reset.*
 
 Under **Choose network access** section:
 
@@ -209,99 +188,64 @@ Under **Choose network access** section:
 >
 > Select **Configure access control rules:** *Off*
 
-![](media/image12.png){width="6.268055555555556in"
-height="1.9826388888888888in"}
+![Oracle Cloud Web Console](./images/lab100_5.png)
 
-Under **Choose a license type** section, choose **License Type:**
-*Licence Included*.
+Under **Choose a license type** section, choose **License Type: Licence Included*.
 
-When you have completed the required fields, scroll down and click on
-the blue **Create Autonomous Database** button at the bottom of the
-form:
+When you have completed the required fields, scroll down and click on the blue **Create Autonomous Database** button at the bottom of the form:
 
-![](media/image13.png){width="6.268055555555556in"
-height="0.9208333333333333in"}
+![Oracle Cloud Web Console](./images/lab100_6.png)
 
-The Autonomous Database Details page will show information about your
-new instance. You should notice the various menu buttons that help you
-manage your new instance -- because the instance is currently being
-provisioned all the management buttons are greyed out.
+The Autonomous Database Details page will show information about your new instance. You should notice the various menu buttons that help you manage your new instance -- because the instance is currently being provisioned all the management buttons are greyed out.
 
-![](media/image14.png){width="5.925891294838145in"
-height="2.521096894138233in"}
+![Oracle Cloud Web Console](./images/lab100_7.png)
 
-A summary of your instance status is shown in the large box on the left.
-In this example, the colour is amber and the status is **Provisioning.**
+A summary of your instance status is shown in the large box on the left. In this example, the colour is amber and the status is **Provisioning.**
 
-![](media/image15.png){width="1.4780030621172353in" height="1.59375in"}
+![Oracle Cloud Web Console](./images/lab100_8.png)
 
-After a short while, the status will change to **Available** and the
-"ADW" box will change colour to green:
+After a short while, the status will change to **Available** and the "ADW" box will change colour to green:
 
-![](media/image16.png){width="1.5113659230096237in"
-height="1.604121828521435in"}
+![Oracle Cloud Web Console](./images/lab100_9.png)
 
-Once the Lifecycle Status is **Available**, additional summary
-information about your instance is populated, including workload type
-and other details.
+Once the Lifecycle Status is **Available**, additional summary information about your instance is populated, including workload type and other details.
 
 The provisioning process should take under 5 minutes.
 
-After having the Autonomous Database instance created and available, you
-can get a message window asking you to upgrade from 18c to 19c if you
-have selected 18c as a database version during the provisioning. You can
-upgrade the database release if you wish after the hands-on session,
-otherwise the upgrade process can take a few minutes and you can miss a
-few exercises during the session.
+After having the Autonomous Database instance created and available, you can get a message window asking you to upgrade from 18c to 19c if you have selected 18c as a database version during the provisioning. You can
+upgrade the database release if you wish after the hands-on session, otherwise the upgrade process can take a few minutes and you can miss a few exercises during the session.
 
 You can now proceed onto running the next labs.
 
 ### About Configuring Auto-Scaling in the Autonomous Database - Optional
 
-If you select auto scaling Autonomous Database can use up to three times
-more CPU and IO resources than specified by the number of OCPUs
-currently shown in the Scale Up/Down dialog without any manual
-intervention required. On the \"*Autonomous Database Details*\" page for
-your Autonomous Database, click the **Scale Up/Down** button.
+If you select auto scaling Autonomous Database can use up to three times more CPU and IO resources than specified by the number of OCPUs currently shown in the Scale Up/Down dialog without any manual intervention required. On the  \"*Autonomous Database Details*\" page for your Autonomous Database, click the **Scale Up/Down** button.
 
-![](media/image17.png){width="5.875in" height="0.4166666666666667in"}
+![Oracle Cloud Web Console](./images/lab100_10.png)
 
-In an \"Always Free\" tier database in a tenancy with no credits, the
-*Scale Up/Down* pop up is limited in functionality, as autoscaling
-requires to go over the CPU and Storage count allowed for Always Free
-tier.
+In an \"Always Free\" tier database in a tenancy with no credits, the *Scale Up/Down* pop up is limited in functionality, as autoscaling requires to go over the CPU and Storage count allowed for Always Free tier.
 
 Mora information about Oracle Always Free Tier:
 <https://docs.cloud.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm>
 
-![](media/image18.png){width="6.268055555555556in"
-height="1.8423611111111111in"}
+![Oracle Cloud Web Console](./images/lab100_11.png)
 
 In a paid tenancy the \"*Scale Up/Down*\" pop-up will appear as below.
 
-![](media/image19.png){width="6.268055555555556in"
-height="2.435416666666667in"}
+![Oracle Cloud Web Console](./images/lab100_12.png)
 
-Enabling auto-scaling, or manually scaling the Autonomous Database is
-transparent to running workloads of the system. Only an administrator
-will be aware of this change in progress when the Lifecycle State
-changes to \'*Scaling in Progress*\'.
+Enabling auto-scaling, or manually scaling the Autonomous Database is transparent to running workloads of the system. Only an administrator will be aware of this change in progress when the Lifecycle State changes to \'*Scaling in Progress*\'.
 
-![](media/image20.png){width="1.6826924759405075in"
-height="1.8229166666666667in"}
+![Oracle Cloud Web Console](./images/lab100_13.png)
 
-###  {#section .list-paragraph}
 
 ### Accessing the Performance Hub - Optional
 
-Performance Hub allows you to examine real-time and historical
-performance data, view Active Session History (ASH) Analytics and SQL
-Monitoring.
+Performance Hub allows you to examine real-time and historical performance data, view Active Session History (ASH) Analytics and SQL Monitoring.
 
-From your Autonomous Database Details page, select **Performance Hub**
-from the Action Menu.
+From your Autonomous Database Details page, select **Performance Hub** from the Action Menu.
 
-![](media/image17.png){width="5.875in" height="0.4166666666666667in"}
+![Oracle Cloud Web Console](./images/lab100_14.png)
 
 The Performance Hub page consists of the following regions:
 
@@ -311,60 +255,35 @@ The Performance Hub page consists of the following regions:
 
 \- SQL Monitoring Tab
 
-You can have different options under this section based on the region
-and version that you have selected. For more information, check the
-official [Oracle
+You can have different options under this section based on the region and version that you have selected. For more information, check the official [Oracle
 documentation.](https://docs.oracle.com/en/cloud/paas/atp-cloud/atpug/monitor-performance-intro.html#GUID-54CCC1C6-C32E-47F4-8EB6-64CD6EDB5938)
 
-Your Performance Hub page may not have any monitored SQL sessions
-available in the screen now because your instance has been created a few
-minutes ago. If this is the case, just examine the screenshots and use
-the menu bars within the Performance Hub to examine what data you could
+Your Performance Hub page may not have any monitored SQL sessions available in the screen now because your instance has been created a few minutes ago. If this is the case, just examine the screenshots and use the menu bars within the Performance Hub to examine what data you could
 use.
 
 #### The Time Range 
 
-The \"**Time Range Selector**\" is on the top of the Performance Hub
-page. You can use the \"Select Duration\" field to set the time duration
-displayed. You can choose to view Last Hour (default), Last 8 hours,
-Last 24 hours, Last week, or specify a custom time range using the
-Custom option.
+The \"**Time Range Selector**\" is on the top of the Performance Hub page. You can use the \"Select Duration\" field to set the time duration displayed. You can choose to view Last Hour (default), Last 8 hours, Last 24 hours, Last week, or specify a custom time range using the Custom option.
 
-![](media/image21.png){width="6.268055555555556in"
-height="1.3395833333333333in"}
+![Oracle Cloud Web Console](./images/lab100_15.png)
 
-The Time Range field shows active sessions in chart form for the time
-period selected. The active sessions chart displays the average number
-of active sessions broken down by CPU, User I/O, and Wait. The active
-sessions chart also shows the Max CPU usage.
+The Time Range field shows active sessions in chart form for the time period selected. The active sessions chart displays the average number of active sessions broken down by CPU, User I/O, and Wait. The active sessions chart also shows the Max CPU usage.
 
 #### Active Session History (ASH) Analytics 
 
-This shows **Active Session History** (ASH) analytics charts to explore
-Active Session History data. You can drill down into database
-performance across multiple dimensions such as Consumer Group, Wait
-Class, SQL ID, and User Name.
+This shows **Active Session History** (ASH) analytics charts to explore Active Session History data. You can drill down into database performance across multiple dimensions such as Consumer Group, Wait Class, SQL ID, and User Name.
 
-![](media/image22.png){width="6.268055555555556in"
-height="2.5743055555555556in"}
-
-####  {#section-1 .list-paragraph}
+![Oracle Cloud Web Console](./images/lab100_16.png)
 
 #### SQL Monitoring 
 
-The SQL statements by default are only monitored if they have been
-running for at least five seconds or if they have run in parallel.
+The SQL statements by default are only monitored if they have been running for at least five seconds or if they have run in parallel.
 
-The table displays the top 100 monitored SQL statement executions, and
-you can choose to alter the display by dimensions such as Last Active
-Time, CPU Time, and Database Time. You can also choose to kill badly
-behaved SQL sessions from this screen.
+The table displays the top 100 monitored SQL statement executions, and you can choose to alter the display by dimensions such as Last Active Time, CPU Time, and Database Time. You can also choose to kill badly behaved SQL sessions from this screen.
 
-![](media/image23.png){width="6.268055555555556in"
-height="1.7152777777777777in"}
+![Oracle Cloud Web Console](./images/lab100_17.png)
 
-Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance
------------------------------------------------------------------
+##Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance
 
 There are currently two methods of deploying OAC instances. This section
 describes the process of deploying Oracle Analytics Cloud instances on
