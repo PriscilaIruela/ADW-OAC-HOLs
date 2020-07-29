@@ -1,9 +1,6 @@
 
 # Oracle Autonomous Data Warehouse and Oracle Analytics Cloud Hands on Lab Guide
 
-![](media/image2.jpg){width="8.259842519685039in"
-height="4.1299212598425195in"}
-
 ## Table of Contents
 
 [1 Lab Introduction](#lab-introduction)
@@ -52,7 +49,7 @@ With Oracle Analytics Cloud, you also get flexible service management capabili
 
 To run the lab, you will need an Oracle Free Tier Account, with a provisioned ADW instance and a a provisioned OAC instance. This pre-requisite guide will take you step-by-step through how to get the account and set the instance up, to be ready to start the lab.
 
-## Lab Techincal Requirement
+### Lab Techincal Requirement
 
 This lab requires you to install the following desktop applications so that you can complete this hands-on lab:
 
@@ -75,7 +72,7 @@ This section of the lab will take you through all the required preparation steps
 
 -   Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance.
 
-## Lab 000 - Creating and connecting to your Oracle Cloud Free Tier Account
+### Lab 000 - Creating and connecting to your Oracle Cloud Free Tier Account
 
 During this workshop, you will use an Oracle Cloud Free Tier Account to run the Lab exercises. This account will give you access to the Always Free resources in Oracle Cloud Free Tier and a limited time trial period with an expanded set of services. Once this period elapses, you can continue to use the Always Free resources with no interruptions.
 
@@ -90,7 +87,7 @@ As part of your sign up to this lab, you will have been provided a link to sign 
 -   Use the following URL - [Sign Up for Oracle
     Cloud](https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType=undefined&sourceType=:ow:evp:cpo:::RC_WWMK200720P00081:OER400073848&intcmp=:ow:evp:cpo:::RC_WWMK200720P00081:OER400073848)
 
--   Use a **[personal email address]{.ul}** that you will use during all the workshop process.
+-   Use a **personal email address** that you will use during all the workshop process.
 
 On the sign up page, enter your email address, select your
 Country/Territory and click \"Next\".
