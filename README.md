@@ -21,7 +21,7 @@ To run the lab, you will need an Oracle Free Tier Account, with a provisioned AD
 
 ## Table of Contents
 
-[Lab 000 - Signing Up for your Oracle Cloud Free Tier Account](/Lab0/README.md)
+[Get Started - Signing Up for your Oracle Cloud Free Tier Account](/Lab0/README.md)
 
 [Lab 100 - Provisioning your Autonomous Database instance](/Lab1/README.md)
 
