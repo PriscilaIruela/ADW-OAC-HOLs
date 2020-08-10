@@ -31,10 +31,10 @@ To run the lab, you will need an Oracle Free Tier Account, with a provisioned AD
 
 [Want to learn more about ADW & OAC?](/Appendix/README.md)
 
+## Let's Get Started
+
 At this point, you are ready to start learning!
 
 ---
-
-## Let's Get Started
 
 Sign Up for your Oracle Cloud Free Tier to [**Get Started!**](./Lab0/README.md)
