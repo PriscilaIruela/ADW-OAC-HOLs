@@ -21,7 +21,7 @@ To run the lab, you will need an Oracle Free Tier Account, with a provisioned AD
 
 ## Table of Contents
 
-[Lab 000 - Creating and connecting to your Oracle Cloud Free Tier Account](/Lab0/README.md)
+[Lab 000 - Signing Up for your Oracle Cloud Free Tier Account](/Lab0/README.md)
 
 [Lab 100 - Provisioning your Autonomous Database instance](/Lab1/README.md)
 
@@ -29,14 +29,5 @@ To run the lab, you will need an Oracle Free Tier Account, with a provisioned AD
 
 [Lab 300 - Using Oracle Analytics Cloud (OAC)](/Lab3/README.md)
 
-[Appendix](/Appendix/README.md)
+[Want to learn more about ADW & OAC?](/Appendix/README.md)
 
-[Want to learn more about ADW & OAC?](/Lab4/README.md)
-
-
-## Lab Requirement
-
-As you will be registering for services in Oracle Cloud, you will also need:
-
--   Access to the email account used to register for the workshop.
--   A cell phone to receive an SMS for account verification processes.
