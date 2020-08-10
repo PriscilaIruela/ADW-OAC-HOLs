@@ -21,17 +21,17 @@ To run the lab, you will need an Oracle Free Tier Account, with a provisioned AD
 
 ## Table of Contents
 
-[Lab 000 - Creating and connecting to your Oracle Cloud Free Tier Account](./Lab0/README.md=)
+[Lab 000 - Creating and connecting to your Oracle Cloud Free Tier Account](/Lab0/README.md=)
 
-[Lab 100 - Provisioning your Autonomous Database instance](./Lab1/README.md=)
+[Lab 100 - Provisioning your Autonomous Database instance](/Lab1/README.md=)
 
-[Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance](./Lab2/README.md=)
+[Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance](/Lab2/README.md=)
 
-[Lab 300 - Using Oracle Analytics Cloud (OAC)](./Lab3/README.md=)
+[Lab 300 - Using Oracle Analytics Cloud (OAC)](/Lab3/README.md=)
 
-[Appendix](./Appendix/README.md=)
+[Appendix](/Appendix/README.md=)
 
-[Want to learn more about ADW & OAC?](./Lab4/README.md=)
+[Want to learn more about ADW & OAC?](/Lab4/README.md=)
 
 
 ## Lab Requirement
