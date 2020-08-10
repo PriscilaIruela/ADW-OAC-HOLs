@@ -156,3 +156,9 @@ The SQL statements by default are only monitored if they have been running for a
 The table displays the top 100 monitored SQL statement executions, and you can choose to alter the display by dimensions such as Last Active Time, CPU Time, and Database Time. You can also choose to kill badly behaved SQL sessions from this screen.
 
 ![Oracle Cloud Web Console](/images/lab100_17.png)
+
+## Congratulations, you are ready for the next Lab!
+
+---
+
+[**<<<<< Go to Get Started**](../Lab0/README.md) | [Home](../README.md) | [**Go to Lab 2 >>>>>**](../Lab2/README.md)

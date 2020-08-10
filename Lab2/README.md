@@ -106,4 +106,4 @@ You can now proceed onto running the labs.
 
 ---
 
-[Home](../README.md) | [**Go to Lab 3 >>>>>**](../Lab3/README.md)
+[**<<<<< Go to Lab 1**](../Lab1/README.md) | [Home](../README.md) | [**Go to Lab 3 >>>>>**](../Lab3/README.md)
