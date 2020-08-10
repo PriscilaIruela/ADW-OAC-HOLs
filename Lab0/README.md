@@ -8,7 +8,7 @@ During this short lab, we will **Create**, **Sign In** and **Walk Through** the 
 
 What's included with **Oracle Cloud Free Tier**?
 
-![Oracle Cloud Free Tier](../images/oracle_cloud_free_tier.png)
+![Oracle Cloud Free Tier](../images/oracle_cloud_free_tier.PNG)
 
 **Oracle Cloud Free Tier** allows you to sign up for an **Oracle Cloud** account which provides a number of **Always Free** services and a **Free Trial** with US$300 of free credit to use on all eligible Oracle Cloud Infrastructure services for up to 30 days. The **Always Free** services are available for an unlimited period of time. The Free Trial services may be used until your US$300 of free credits are consumed or the 30 days has expired, whichever comes first.
 
@@ -93,12 +93,3 @@ Additionally you sign in with your account.
 ---
 
 [Home](../README.md) | [**Go to Lab 1 >>>>>**](../lab1/README.md)
-
-
-
-
-
-
-Finally, you will be asked also for the \"Home Region\". This is the location of the physical datacenter. You should select a datacenter that is geographically close to you and supports the required services. For this lab, select either UK South (London) or Germany Central (Frankfurt). This is because Oracle Analytics Cloud (OAC) is currently
-only available in UK South (London) and Germany Central (Frankfurt). You can review which services are available in each region using this page:
-<https://www.oracle.com/uk/cloud/data-regions.html#emea>
