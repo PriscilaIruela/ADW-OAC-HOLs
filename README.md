@@ -1,35 +1,24 @@
 
 # Oracle Autonomous Data Warehouse and Oracle Analytics Cloud Hands on Lab Guide
 
+[Lab Introduction]
+
+[Lab technical requirement]
+
+
 ## Table of Contents
 
-[1 Lab Introduction](#lab-introduction)
+[Lab 000 - Creating and connecting to your Oracle Cloud Free Tier Account](./Lab0/README.md=)
 
-[1.1 Lab technical requirement](#lab-technical-requirement)
+[Lab 100 - Provisioning your Autonomous Database instance](./Lab1/README.md=)
 
-[2 Getting Started](#getting-started)
+[Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance](./Lab2/README.md=)
 
-[2.1 Lab 000 - Creating and connecting to your Oracle Cloud Free Tier Account](#lab-000---creating-and-connecting-to-your-oracle-cloud-free-tier-account)
+[Lab 300 - Using Oracle Analytics Cloud (OAC)](./Lab3/README.md=)
 
-[2.2 Lab 100 - Provisioning your Autonomous Database instance](#lab-100---provisioning-your-autonomous-database-instance)
+[Appendix] (./Appendix/README.md=)
 
-[2.2.1 About Configuring Auto-Scaling in the Autonomous Database - Optional](#about-configuring-auto-scaling-in-the-autonomous-database---optional)
-
-[2.2.2 Accessing the Performance Hub - Optional](#accessing-the-performance-hub---optional)
-
-[2.3 Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance](#lab-200---provisioning-your-oracle-analytics-cloud-oac-instance)
-
-[2.4 Lab 300 - Using Oracle Analytics Cloud (OAC)](#lab-300---using-oracle-analytics-cloud-oac)
-
-[2.4.1 Create the connection from Oracle Analytics Cloud to Autonomous Database](#create-the-connection-from-oracle-analytics-cloud-to-autonomous-database)
-
-[2.4.2 Prepare the dataset](#prepare-the-dataset)
-
-[2.4.3 Create Visualizations using your data sets](#create-visualizations-using-your-data-sets)
-
-[Appendix A - Provisioning an Oracle Analytics Cloud Instance](#appendix-a---provisioning-an-oracle-analytics-cloud-instance)
-
-[Want to learn more about ADW & OAC?](#want-to-learn-more-about-adw-oac)
+ - [Want to learn more about ADW & OAC?]
 
 ## Lab Introduction
 
@@ -37,24 +26,19 @@ In this hands-on lab, you will get first-hand experience of using Oracle Cloud, 
 
 Oracle Autonomous Database (ADB) delivers a self-driving, self-securing,self-repairing database service that can instantly scale to meet demands. The service supports two workload types:
 
--   Oracle Autonomous Data Warehouse (ADW) provides an autonomous warehousing environment, associated with fast query performance.
+-   **Oracle Autonomous Data Warehouse (ADW)** provides an autonomous warehousing environment, associated with fast query performance.
 
--   Oracle Autonomous Transaction Processing (ATP) provides an autonomous online transaction processing and mixed workload environment.
+-   **Oracle Autonomous Transaction Processing (ATP)** provides an autonomous online transaction processing and mixed workload environment.
 
 For the purpose of this lab, we will use ADW so all the steps will be related to this database service.
 
-Oracle Analytics Cloud (OAC) is a scalable and secure public cloud service that provides a full set of capabilities to explore and perform collaborative analytics for you, your workgroup, and your enterprise.
+**Oracle Analytics Cloud (OAC)** is a scalable and secure public cloud service that provides a full set of capabilities to explore and perform collaborative analytics for you, your workgroup, and your enterprise.
 
 With Oracle Analytics Cloud, you also get flexible service management capabilities, including fast setup, easy scaling and patching, and automated lifecycle management.
 
 To run the lab, you will need an Oracle Free Tier Account, with a provisioned ADW instance and a a provisioned OAC instance. This pre-requisite guide will take you step-by-step through how to get the account and set the instance up, to be ready to start the lab.
 
-### Lab Techincal Requirement
-
-This lab requires you to install the following desktop applications so that you can complete this hands-on lab:
-
--   PDF File reader.
--   A web browser. The lab guide was created using Google Chrome.
+### Lab Requirement
 
 As you will be registering for services in Oracle Cloud, you will also need:
 
