@@ -611,3 +611,9 @@ Canvas or the Active Visual. Etc.
 
 ![](media/image100.png){width="6.268055555555556in"
 height="3.3472222222222223in"}
+
+## Congratulations, you are ready for the next Lab!
+
+---
+
+[**<<<<< Go to Lab 1 **](../README.md) | [**Go to Lab 2 >>>>>**](../lab2/README.md)

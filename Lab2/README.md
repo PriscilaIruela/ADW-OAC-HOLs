@@ -101,3 +101,9 @@ The Analytics instance page will be displayed with a status of *ACTIVE*.
 ![](media/image31.png){width="6.268055555555556in" height="3.41875in"}
 
 You can now proceed onto running the labs.
+
+## Congratulations, you are ready for the next Lab!
+
+---
+
+[Home](../README.md) | [**Go to Lab 3 >>>>>**](../Lab3/README.md)

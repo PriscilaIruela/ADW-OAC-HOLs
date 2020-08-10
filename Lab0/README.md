@@ -92,4 +92,4 @@ Additionally you sign in with your account.
 
 ---
 
-[Home](../README.md) | [**Go to Lab 1 >>>>>**](../lab1/README.md)
+[Home](../README.md) | [**Go to Lab 1 >>>>>**](../Lab1/README.md)
