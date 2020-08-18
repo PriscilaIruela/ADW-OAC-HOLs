@@ -12,7 +12,7 @@ Click in **View Account** and **Sign in to Cloud**.
 
 ![Oracle Console SignIn](/images/lab200_1.png)
 
-Click on the menu icon on the left. Verify that you are signed in as a Single Sign On (Federated user) user by selecting the **Profile** icon
+Click on the menu icon on the left. Verify that you are signed in as a **Single Sign On** (Federated user) user by selecting the **Profile** icon
 in the top right hand side of your screen. If your username is shown as:
 
 > oracleidentitycloudservice / \<your username\>
