@@ -19,8 +19,7 @@ in the top right hand side of your screen. If your username is shown as:
 >
 Then you are connected as a Single Sign On user.
 
-![](media/image25.png){width="5.041666666666667in"
-height="3.1770833333333335in"}
+![Oracle Console SignIn](/images/lab200_2.png)
 
 If your username is shown as:
 
@@ -28,13 +27,12 @@ If your username is shown as:
 >
 Then you are not signed in as an Oracle Cloud Infrastructure user.
 
-![](media/image26.png){width="4.6875in" height="3.2291666666666665in"}
+![Oracle Console SignIn](/images/lab200_3.png)
 
 If your user does not contain the identity provider --(oracleidentitycloudprovider), please logout and select to authenticate
 using Single Sign On.
 
-![](media/image27.png){width="6.268055555555556in"
-height="3.4402777777777778in"}
+![Oracle Console SignIn](/images/lab200_4.png)
 
 To be capable of using Oracle Analytics Cloud we need to be Sign-On as a Single Sign-On (SSO) user.
 
@@ -42,8 +40,7 @@ To be capable of using Oracle Analytics Cloud we need to be Sign-On as a Single 
 
 Return to the *Home Console Page* and navigate to **Analytics** under **Solutions and Platform** section and then **Analytics Cloud**.
 
-![](media/image28.png){width="4.138194444444444in"
-height="3.015277777777778in"}
+![Oracle Console SignIn](/images/lab200_5.png)
 
 ***Note**: You must be connected as a Single Sign On (Federated user) user to a tenancy, which has available cloud credits to see this menu
 item. Local OCI users are not able to do this.*
@@ -67,20 +64,19 @@ Complete the form using the following information:
 
 Select **Create**.
 
-![](media/image29.png){width="6.268055555555556in" height="3.23125in"}
+![Oracle Console SignIn](/images/lab200_6.png)
 
 On the Confirmation screen, select **Create**.
 
 The Analytics instance page will be displayed with a status of *CREATING*.
 
-![](media/image30.png){width="6.268055555555556in"
-height="3.6756944444444444in"}
+![Oracle Console SignIn](/images/lab200_7.png)
 
 ***Reminder***: Provisioning an Oracle Analytics Cloud instance can take over 40 minutes.
 
 The Analytics instance page will be displayed with a status of *ACTIVE*.
 
-![](media/image31.png){width="6.268055555555556in" height="3.41875in"}
+![Oracle Console SignIn](/images/lab200_8.png)
 
 You can now proceed onto running the labs.
 
