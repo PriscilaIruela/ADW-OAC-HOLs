@@ -1,6 +1,6 @@
 # Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance
 
-There are currently two methods of deploying **OAC instances**. This section describes the process of deploying **Oracle Analytics Cloud** instances on Oracle Cloud Infrastructure Gen 2, which is the default for newly provisioned accounts in EMEA and US.
+There are currently two methods of deploying **OAC instances**. This section describes the process of deploying **Oracle Analytics Cloud** instances on Oracle Cloud Infrastructure Gen 2, which is the default for newly provisioned accounts in **EMEA** and **US**.
 
 Your Oracle Cloud Free Tier account will use the Oracle Cloud Free Trial credits while this instance is provisioned, as Oracle Analytics Cloud is
 not part of the Always Free cloud services.
