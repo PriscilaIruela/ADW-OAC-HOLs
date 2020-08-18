@@ -17,32 +17,32 @@ in the top right hand side of your screen. If your username is shown as:
 
 > oracleidentitycloudservice / \<your username\>
 >
-Then you are connected as a Single Sign On user.
+Then you are connected as a **Single Sign On** user.
 
-![Oracle Console SignIn](/images/lab200_2.png)
+![Federated User](/images/lab200_2.png)
 
 If your username is shown as:
 
 >\<your username\>
 >
-Then you are not signed in as an Oracle Cloud Infrastructure user.
+Then you are not signed in as an **Oracle Cloud Infrastructure** user.
 
-![Oracle Console SignIn](/images/lab200_3.png)
+![OCI User](/images/lab200_3.png)
 
-If your user does not contain the identity provider --(oracleidentitycloudprovider), please logout and select to authenticate
+If your user does not contain the identity provider --(**oracleidentitycloudprovider**), please logout and select to authenticate
 using Single Sign On.
 
 ![Oracle Console SignIn](/images/lab200_4.png)
 
-To be capable of using Oracle Analytics Cloud we need to be Sign-On as a Single Sign-On (SSO) user.
+To be capable of using **Oracle Analytics Cloud** we need to be Sign-On as a **Single Sign-On** (SSO) user.
 
 [More information about federated users.](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Tasks/usingscim.htm)
 
 Return to the *Home Console Page* and navigate to **Analytics** under **Solutions and Platform** section and then **Analytics Cloud**.
 
-![Oracle Console SignIn](/images/lab200_5.png)
+![Oracle Analytics Console](/images/lab200_5.png)
 
-***Note**: You must be connected as a Single Sign On (Federated user) user to a tenancy, which has available cloud credits to see this menu
+***Note**: You must be connected as a **Single Sign On** (**Federated** user) user to a tenancy, which has available cloud credits to see this menu
 item. Local OCI users are not able to do this.*
 
 Select **Create Instance**.
@@ -64,19 +64,19 @@ Complete the form using the following information:
 
 Select **Create**.
 
-![Oracle Console SignIn](/images/lab200_6.png)
+![OAC Instance Creation](/images/lab200_6.png)
 
 On the Confirmation screen, select **Create**.
 
-The Analytics instance page will be displayed with a status of *CREATING*.
+The Analytics instance page will be displayed with a status of ***CREATING***.
 
-![Oracle Console SignIn](/images/lab200_7.png)
+![OAC Instance Creating](/images/lab200_7.png)
 
-***Reminder***: Provisioning an Oracle Analytics Cloud instance can take over 40 minutes.
+***Reminder***: Provisioning an Oracle Analytics Cloud instance can take over **40 minutes**.
 
-The Analytics instance page will be displayed with a status of *ACTIVE*.
+The Analytics instance page will be displayed with a status of ***ACTIVE***.
 
-![Oracle Console SignIn](/images/lab200_8.png)
+![OAC Instance Active](/images/lab200_8.png)
 
 You can now proceed onto running the labs.
 
