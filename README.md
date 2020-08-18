@@ -29,7 +29,7 @@ To run the lab, you will need an Oracle Free Tier Account, with a provisioned AD
 
 [Lab 300 - Using Oracle Analytics Cloud (OAC)](/Lab3/README.md)
 
-[Want to learn more about ADW & OAC?](/Appendix/README.md)
+[Next Steps](/Next/README.md)
 
 ## Let's Get Started
 
