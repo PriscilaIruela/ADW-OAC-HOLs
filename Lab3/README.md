@@ -38,8 +38,7 @@ within a region.*
 In the Oracle Console Home Page, click on the hamburger **MENU** link at the upper left corner of the page and go to the **Autonomous Data
 Warehouse** section.
 
-![](media/image8.png){width="3.1458333333333335in"
-height="5.989583333333333in"}
+![Oracle Console SignIn](/images/lab300_1.png)
 
 You can see all the ADW instances that you have created.
 
