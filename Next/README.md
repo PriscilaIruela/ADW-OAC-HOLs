@@ -11,11 +11,10 @@ Let's get started.
 
 ![Oracle Cloud Pricing](../images/next_banner.png)
 
-I hope you could complete all the labs on this Oracle APEX and Digital Assistant labs and you learn the basic concepts from the technologies that we have use: - **Oracle Autonomous Database** - **Oracle Application Express** - **Oracle Digital Assistant**
 
-I hope you could complete all the labs on this ADW and OAC and you have learned the basic concepts from the technologies that we have used: - **Oracle Autonomous Database** - **OraclE Analytics Cloud**.
+I hope you could complete all the labs on this ADW and OAC workshop and you have learned the basic concepts from the technologies that we have used: - **Oracle Autonomous Database** - **OraclE Analytics Cloud**.
 
-The technologies that we have covered on this workshop are using **Always Free** and **Free Trial** credits so you don't have to pay for the services that you have used.
+The technologies that we have covered on this workshop are using **Always Free** and **Free Trial** credits so you don't have to pay for the services that you have used. 
 
 If you want to **Upgrade** the Instances that we used, you can follow these simple steps to upgrade to your favorite paid subscription model.
 
