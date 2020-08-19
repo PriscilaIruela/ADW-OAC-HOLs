@@ -445,9 +445,9 @@ Canvas or the Active Visual**. Etc.
 ## It works
 
 You have achived:
-- Create a connection from Oracle Analytics Cloud to Autonomous Database.
-- Prepare the dataset.
-- Create Visualizations to analyse the data.
+- Connection from Oracle Analytics Cloud to Autonomous Database.
+- Preparation of datasets.
+- Visualizations to analyse the data.
 
 ## Congratulations! Well done!
 
