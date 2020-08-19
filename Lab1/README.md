@@ -119,6 +119,10 @@ Remember: You will have visible the Always Free logo next to the name of your da
 
 ![Always Free Logo](/images/always_free_logo.png)
 
+## It works
+
+You just created an Autonomous Database with the latest features of Oracle Databases.
+
 ## Congratulations, you are ready for the next Lab!
 
 ---

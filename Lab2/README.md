@@ -79,7 +79,9 @@ The Analytics instance page will be displayed with a status of ***ACTIVE***.
 
 ![OAC Instance Active](/images/lab200_8.png)
 
-You can now proceed onto running the labs.
+## It works
+
+You just created an Oracle Analytics Cloud Instance.
 
 ## Congratulations, you are ready for the next Lab!
 
