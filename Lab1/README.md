@@ -2,6 +2,25 @@
 
 ![Autonomous Databases](/images/adb_banner2.png)
 
+This lab walks you through the steps to get started using the Oracle Autonomous Transaction Processing Database (ATP) on Oracle Cloud Infrastructure (OCI). You will provision a new database in just few minutes.
+
+**Self-driving**
+Automate database provisioning, tuning, and scaling.
+
+Provisions highly available databases, configures and tunes for specific workloads, and scales compute resources when needed, all done automatically.
+
+**Self-securing**
+Automate data protection and security.
+
+Protect sensitive and regulated data automatically, patch your database for security vulnerabilities, and prevent unauthorized access—all with Oracle Autonomous Database.
+
+**Self-repairing**
+Automate failure detection, failover, and repair.
+
+Detect and protect from system failures and user errors automatically and provide failover to standby databases with zero data loss.
+
+## Create a new Autonomous Data Warhouse Datatabase
+
 Click on the hamburger **MENU** link at the upper left corner of the page.
 
 This will produce a drop-down menu, where you should select **Autonomous Data Warehouse.**
