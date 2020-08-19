@@ -8,10 +8,9 @@ You are going to use an Oracle Analytics Cloud instance to give your end users a
 
 In this lab, you will:
 
--   Create a connection from Oracle Analytics Cloud to Autonomous
-    Database.
--   Prepare the dataset.
--   Create Visualizations to analyse the data.
+-   **Create a connection** from Oracle Analytics Cloud to Autonomous Database.
+-   **Prepare** the dataset.
+-   **Create Visualizations** to analyse the data.
 
 ## Create the connection from Oracle Analytics Cloud to Autonomous Database
 
