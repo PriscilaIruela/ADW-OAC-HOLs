@@ -7,7 +7,7 @@
 
 In this hands-on lab, you will get first-hand experience of using Oracle Cloud, **Oracle Autonomous Database (ADB)** and **Oracle Analytics Cloud (OAC)**.
 
-**Oracle Autonomous Database (ADB) **delivers a self-driving, self-securing,self-repairing database service that can instantly scale to meet demands. The service supports two workload types:
+**Oracle Autonomous Database (ADB)** delivers a self-driving, self-securing,self-repairing database service that can instantly scale to meet demands. The service supports two workload types:
 
 -   **Oracle Autonomous Data Warehouse (ADW)** provides an autonomous warehousing environment, associated with fast query performance.
 
