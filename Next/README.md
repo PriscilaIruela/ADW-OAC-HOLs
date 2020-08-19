@@ -1,9 +1,11 @@
 # Next Steps
 
-- [Next Steps](#next-steps)
+In this [Next Steps section](#next-steps) we will cover:
   - [Upgrade Instances to Paid](#upgrade-instances-to-paid)
   - [Want to learn more?](#want-to-learn-more)
   - [Troubleshooting](#troubleshooting)
+
+Let's get started.
 
 ## Upgrade Instances to Paid
 
@@ -43,34 +45,19 @@ You have learned how to Upgrade your Always Free Account to a subscription model
 
 ## Want to learn more?
 
---MODIFY---
+If you enjoy the workshop, give me a star on Github: [click here](https://github.com/PriscilaIruela/ADW-OAC-HOLs)!
+![Github start](../images/gthib_start.png)
 
-If you enjoy the workshop, give me a star on Github: [click here](https://github.com/vmleon/oracle-atp-da)!
-![Github start](../images/github.png)
+Please, help us to improve. [Create an issue](https://github.com/PriscilaIruela/ADW-OAC-HOLs/issues) if you think something is not quite right.
 
-Please, help us to improve. [Create an issue](https://github.com/vmleon/oracle-atp-da/issues) if you think something is not quite right.
+Learn more about [Oracle Autonomous Data Warehouse](https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/).
 
-Learn about [Autonomous Database](https://github.com/vmleon/OracleATPGettingStarted) for developers and operators (Workshop)
+Learn more about [Oracle Autonomous Data Warehouse on Shared Exadata Infrastructure](https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/user/autonomous-intro-adw.html#GUID-4B91499D-7C2B-46D9-8E4D-A6ABF2093414).
 
-Learn Kubernetes with [Oracle Kubernetes Engine](https://github.com/vmleon/OKE-first-steps) (Workshop)
-
-Learn about HTTP security with [Oracle Cloud Web Application Firewall](https://github.com/vmleon/Oracle-WAF-Demo) (Workshop)
-
-Check [Oracle Tech Exchange](https://fnimphiu.github.io/OracleTechExchange/) contains a lot of short tutorials about Oracle Digital Assistant
-
---MODIFY---
-
-[Oracle Autonomous Data Warehouse offitial Documentation.](https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/)
-
-[Oracle Autonomous Data Warehouse on Shared Exadata Infrastructure.](https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/user/autonomous-intro-adw.html#GUID-4B91499D-7C2B-46D9-8E4D-A6ABF2093414)
-
-[Oracle Analytics Cloud offitial Documentation.](https://docs.oracle.com/en/cloud/paas/analytics-cloud/index.html)
-
-[Oracle Analytics Cloud - What Is Oracle Analytics Cloud Documentation.](https://www.oracle.com/business-analytics/analytics-cloud.html)
-
+Learn more about[Oracle Analytics Cloud](https://docs.oracle.com/en/cloud/paas/analytics-cloud/index.html). 
 
 ## Troubleshooting
 
 ---
 
-[**<< Go to Lab 3**](../Lab3/README.md) | [Home](../README.md)
+[**<<<<< Go to Lab 3**](../Lab3/README.md) | [Home](../README.md)
