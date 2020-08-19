@@ -41,11 +41,12 @@ Warehouse**** section.
 
 ![Oracle Console SignIn](/images/lab300_1.png)
 
-You can see all the ADW instances that you have created.
+You can see all the **ADW** instances that you have created.
 
 ![](/images/lab300_2.png)
 
-**Select** the ADW instance that we created before.
+**Select** the ![Oracle Console SignIn](/images/lab300_1.png)
+ instance that we created before.
 
 On the \"***Autonomous Database Details***\" page for your Autonomous Database, click the **DB Connection** button.
 
@@ -60,11 +61,11 @@ This will open a pop-up window. Select Wallet Type **Instance Wallet** and then 
 You will be asked to provide a **password** for the wallet. The password must meet the rules for the **Oracle Cloud password** complexity. This
 password is a password that you need to remember for your **wallet**. You can use the **admin password** that you created before.
 
-Select **Download** and save the wallet to your local machine.
+Select **Download** and save the wallet to your **local machine**.
 
 ![](/images/lab300_5.png)
 
-You can now **Close** the Database Connection pop up window.
+You can now **Close** the **Database Connection** pop up window.
 
 ![](/images/lab300_6.png)
 
@@ -72,7 +73,7 @@ You can now **Close** the Database Connection pop up window.
 
 **Return** to the **Oracle Cloud Infrastructure console** and click on the menu icon on the left.
 
-Navigate to **Analytics** and then **Analytics Cloud**.
+**Navigate** to **Analytics** and then **Analytics Cloud**.
 
 ![](/images/lab300_7.png)
 
@@ -81,7 +82,7 @@ side of your instance information and selecting **Open URL**.
 
 ![](/images/lab300_8.png)
 
-The Oracle Analytics page will open in a new browser **window/tab**.
+The **Oracle Analytic**s page will open in a new browser **window/tab**.
 
 On the top right-hand side of the screen, click **Create**, and then **Connection**.
 
@@ -109,7 +110,7 @@ of the values will be **autocompleted**. Later on you just have to review and mo
 
 ![](/images/lab300_11.png)
 
-> Select **Save** to save your new connection information.
+> Select **Save** to save your new connection **information**.
 
 ## Prepare the dataset
 
@@ -127,50 +128,50 @@ Select **WORKSHOPADWOAC**, the connection you **created** in the previous step.
 
 In the next window, click on the **SH** (Sales History) **schema**.
 
-The SH schema provides a small data set you can use to run the sample queries in the [Oracle Database Data Warehousing Guide](https://docs.oracle.com/pls/topic/lookup?ctx=en/cloud/paas/autonomous-data-warehouse-cloud/user&id=DWHSG8664).
+The **SH schema** provides a small data set you can use to run the sample queries in the [Oracle Database Data Warehousing Guide](https://docs.oracle.com/pls/topic/lookup?ctx=en/cloud/paas/autonomous-data-warehouse-cloud/user&id=DWHSG8664).
 
 For more information on the SH schema see *Sample Schemas* and [*Schema Diagrams*](https://docs.oracle.com/pls/topic/lookup?ctx=en/cloud/paas/autonomous-data-warehouse-cloud/user&id=COMSC112). 
 
 ![](/images/lab300_14.png)
 
-We are ready to start with the visualizations.
+We are ready to start with the **visualizations**.
 
 ![](/images/lab300_15.png)
 
-Let start by analysing the Sales History fact table.
+Let start by analysing the **Sales History** fact table.
 
 Select **SALES** table from the *SH schema*.
 
 ![](/images/lab300_16.png)
 
-This will display the columns available in the SALES table.
+This will display the columns available in the **SALES** table.
 
-Select **Add All** to select all columns in the table.
+Select **Add All** to select all columns in the **table**.
 
 ![](/images/lab300_17.png)
 
 After you clicked **Add** to create the Data Set, select **SALES** at the top of the page (figure 1) or at the right side of the selection
 panel (figure 2) depend the version of OAC that you are using to modify the Data Set that we are currently creating.
 
-Figure 1.
+**Figure 1**.
 
 ![](/images/lab300_18.png)
 
-Figure 2.
+**Figure 2**.
 
 ![](/images/lab300_19.png)
 
-Use the following information to configure your Data Set:
+Use the following **information** to configure your **Data Set**:
 
 > **Data Access**: Live
 >
 > **Name**: SH_SALES
 
-Then **Add** to create the Data Set.
+Then **Add** to create the **Data Set**.
 
 ![](/images/lab300_20.png)
 
-The Data Set was successfully **added**.
+The **Data Set** was successfully **added**.
 
 ## Create Visualizations using your data sets
 
@@ -178,14 +179,14 @@ Create a new project by clicking **Create Project**.
 
 ![](/images/lab300_21.png)
 
-A new screen with a white canvas is open using SH_SALES Data Set that we have created before.
+A new screen with a **white canvas** is open using **SH_SALES Data Set** that we have created before.
 
 ![](/images/lab300_22.png)
 
-Before drowning into details, let us give you a quick explanation of the different parts of this screen. That will help you to easily follow next
+Before drowning into details, let us give you a quick **explanation** of the different parts of this screen. That will help you to easily follow next
 steps.
 
-An Oracle Analytics Project consist of three main parts (you can see them at the top right part of the screen):
+An **Oracle Analytics Project** consist of **three main parts** (you can see them at the top right part of the screen):
 
 ![](/images/lab300_23.png)
 
@@ -201,7 +202,7 @@ An Oracle Analytics Project consist of three main parts (you can see them at the
 
 During this lab, you will use only **Prepare** and **Visualize** tabs mainly.
 
-You have already seen the **Prepare** screen on previous steps. The Visualize screen is this one:
+You have already seen the **Prepare** screen on previous steps. The **Visualize** screen is this one:
 
 ![](/images/lab300_24.png)
 
@@ -221,7 +222,7 @@ Main areas to note here are:
 
 Now that you know a bit your way around in the **Project**, you can continue with the lab.
 
-Remember that you just added the new dataset from the **SH_SALES** table.
+**Remember** that you just added the new dataset from the **SH_SALES** table.
 
 All the number-type columns from this table are treated as **NUMBER** by default. You can check the information on the **Properties** section of
 each table column under the Data Type section.
@@ -233,15 +234,14 @@ bottom. By default **Aggregation** value, will be **SUM**, just confirm that it 
 
 ![](/images/lab300_26.png)
 
-We will add Month to your selection: **Hold the Control Button on your Keyboard** and expand **TIME_ID** and select **Month**, after right
+We will **add Month **to your selection: **Hold the Control Button on your Keyboard** and expand **TIME_ID** and select **Month**, after right
 click of your mouse and select **Create Best Visualization**.
 
 ![](/images/lab300_27.png)
 
-Verify that the information that is showing in the canvas is the following:
+Verify that the **information** that is showing in the canvas is the following:
 
-**Line, Values (Y-Axis) -- AMOUNT_SOLD, Category (X-Axis) -- TIME_ID
-(Month).**
+**Line, Values (Y-Axis) -- AMOUNT_SOLD, Category (X-Axis) -- TIME_ID (Month)**.
 
 ![](/images/lab300_28.png)
 
@@ -255,26 +255,26 @@ In the **Properties** panel at the very bottom of the page in the **Trend** sect
 ![](/images/lab300_31.png)
 
 
-Although we had some ups and downs in the totals, you see that in the overall the total amount sold has been trending up, meaning our sales
-are in good shape.
+Although we had some ups and downs in the **totals**, you see that in the overall the total amount sold has been trending up, meaning our **sales
+are in good shape**.
 
-We will compare this information (AMOUNT_SOLD by TIME_ID (Month)) to our active customer base over time. To find the number of active customers,
-we will "count distinct" on CUST_ID on a Monthly basis.
+We will compare this information (**AMOUNT_SOLD by TIME_ID (Month)**) to our active customer base over time. To find the number of active customers,
+we will "**count distinct**" on **CUST_ID on a Monthly basis**.
 
-Select **CUST_ID** column from the TABLE panel and add **Aggregation** rule **Count Distinct** from the COLUMNS Properties panel from the
+Select **CUST_ID** column from the TABLE panel and add **Aggregation** rule **Count Distinct** from the **COLUMNS** Properties panel from the
 bottom.
 
 ![](/images/lab300_32.png)
 
 Be sure you drag **CUST_ID** column to the Values (**Y-Axis**) section with your mouse in the canvas. Be sure it is added AMOUNT_SOLD and not
-replace it. Right click on **CUST_ID** and select **Y2 Axis** as part of the CUST_ID details.
+replace it. Right click on **CUST_ID** and select **Y2 Axis** as part of the **CUST_ID** details.
 
 ![](/images/lab300_33.png)
 ![](/images/lab300_34.png)
 
-This results shows you that the number of customers is going down but the amount sold is going up, so we are selling more to less customers.
+This **results** shows you that the number of customers is going down but the amount sold is going up, so we are **selling more to less customers**.
 
-We will create a new Data Set of data to enrich the canvas.
+We will create a **new Data Set** of data to enrich the **canvas**.
 
 Click the **+** bottom in the left top corner of the Analytics Cloud Page and **Add Data Set**.
 
@@ -303,44 +303,44 @@ Select **Add All** to select all columns in the table.
 ![](/images/lab300_40.png)
 
 Then, to create the Data Set, select **PRODUCTS** at the top of the page or at the right side of the selection panel depend the version of OAC
-that you are using to modify the Data Set that we are creating right now.
+that you are using to **modify the Data Set** that we are creating right now.
 
 ![](/images/lab300_41.png)
 
-Use the following information to configure your Data Set:
+Use the following information to configure your **Data Set**:
 
 > **Data Access**: Live
 >
 > **Name**: SH_PRODUCTS
 
-Then **Add** to create the Data Set.
+Then **Add** to create the **Data Set**.
 
 ![](/images/lab300_42.png)
 
-The Data Set was successfully **saved**.
+The **Data Set** was successfully **saved**.
 
 ![](/images/lab300_43.png)
 
-Now we have to join the new Data Set, SH_PRODUCT, to the data set that we created a few steps before SH_SALES.
+Now we have to join the new Data Set, **SH_PRODUCT**, to the data set that we created a few steps before **SH_SALES**.
 
 You can notice that we have been redirected to the **Prepare** section of the project.
 
-At the bottom of the screen, you can see three tabs, one per each dataset and another one called **Data Diagram**. Click on it.
+At the **bottom of the screen**, you can see three tabs, one per each dataset and another one called **Data Diagram**. **Click** on it.
 
 ![](/images/lab300_44.png)
 
-In this tab, you can view a representation of the different datasets included in the project and their relationships. Currently, there is no
+In this tab, you can view a representation of the **different datasets** included in the project and their **relationships**. Currently, there is no
 relation defined, so you see both as isolated boxes.
 
-Hover over the imaginary line between them and click on the 0 number that will appear:
+Hover over the imaginary line **between** them and click on the **0 number** that will appear:
 
 ![](/images/lab300_45.png)
 
-A pop-up window appears allowing you to define a new relation between the datasets (join). Click on **Add Another Match**.
+A **pop-up window** appears allowing you to define a **new relation** between the datasets (join). Click on **Add Another Match**.
 
 ![](/images/lab300_46.png)
 
-Select **PROD_ID** under each Data Set, SH_PRODUCTS and SH_SALES in the **Select Data** Section.
+Select **PROD_ID** under each Data Set, **SH_PRODUCTS** and **SH_SALES** in the **Select Data** Section.
 
 ![](/images/lab300_47.png)
 
@@ -349,7 +349,7 @@ are using a column that looks like a number only as a join column, but that is e
 
 ![](/images/lab300_48.png)
 
-We will add the new dataset as a Dimension to this section. Click **Add Facts** and select **Extend a Dimension**.
+We will add the new dataset as a **Dimension** to this section. Click **Add Facts** and select **Extend a Dimension**.
 
 ![](/images/lab300_49.png)
 
@@ -357,12 +357,12 @@ Select **OK**.
 
 ![](/images/lab300_50.png)
 
-The connection between the two sources has been created.
+The **connection** between the two sources has been **created**.
 
 ![](/images/lab300_51.png)
 
-Now that the preparation of the data is done, you can navigate again to **Visualize** page in the right top corner of the Analytics Cloud Home
-Page.
+Now that the **preparation** of the data is done, you can navigate again to **Visualize** page in the right top corner of the **Analytics Cloud Home
+Page**.
 
 ![](/images/lab300_52.png)
 
@@ -370,18 +370,18 @@ In the canvas go to **TIME_ID** section, **Show by** and select **Quarter** inst
 
 ![](/images/lab300_53.png)
 
-Apply the **Quarter** filter and the graph will change dynamically.
+Apply the **Quarter** filter and the graph will **change dynamically**.
 
 ![](/images/lab300_54.png)
 
-We will eliminate the Linear Trend Line that we have in the graph.
+We will eliminate the **Linear Trend Line** that we have in the graph.
 
-Click in the graph and in the Properties section of the bottom of the page, select the **Analytics** icon and click in the **Trend** section
+Click in the **graph** and in the **Properties section** of the bottom of the page, select the **Analytics** icon and click in the **Trend** section
 to remove the **Linear** section.
 
 ![](/images/lab300_55.png)
 
-We can see the graph without the Trend Linear line.
+We can see the g**raph without the Trend Linear line**.
 
 ![](/images/lab300_56.png)
 
@@ -391,7 +391,7 @@ Select **PRODUCT_CATEGORY** from **SH_PRODUCTS** and add it in **the Trellis Col
 
 ![](/images/lab300_58.png)
 
-You can see now a trend on the amount sold and number of distinct customers by product category and that allows comparing the performance
+You can see now a **trend** on the **amount sold** and number of distinct customers by product category and that allows comparing the performance
 of each product. However, using just lines can be a bit messy. You will try now to make this graphic more appealing.
 
 Select **AMOUNT_SOLD** from the canvas and select **Bar** graph.
@@ -403,17 +403,17 @@ Select **Project Properties** from the Burger Menu in the right top corner.
 ![](/images/lab300_60.png)
 ![](/images/lab300_61.png)
 
-Select in the **Colour Series** and select another colour that you prefer.
+Select in the **Colour Series** and select another **colour** that you prefer.
 
 ![](/images/lab300_62.png)
 
-Select **OK** after being applied the colour changes.
+Select **OK** after being applied the **colour changes**.
 
 ![](/images/lab300_63.png)
 
 ![](/images/lab300_64.png)
 
-We will save the Project in the **Save** section.
+We will save the **Project** in the **Save** section.
 
 ![](/images/lab300_65.png)
 
@@ -421,24 +421,24 @@ I saved the project with the name **ADW_OAC_SH_SCHEMA**.
 
 ![](/images/lab300_66.png)
 
-You can share your project by email or social media. Have a look at the possibilities.
+You can share your project by **email or social media**. Have a look at the **possibilities**.
 
-Select the Share icon and select File or Print.
+Select the Share icon and select **File or Print.**
 
 ![](/images/lab300_67.png)
 
-You can choose to **Save** your project in a wide variety of standard formats such as PowerPoint (pptx), Acrobat (pdf), Image (png), Data
-(csv), Package (dva).  You can choose which parts of your project to include, such as All Canvas, only the Active Canvas or the Active
-Visual.
+You can choose to **Save** your project in a wide variety of standard formats such as **PowerPoint (pptx), Acrobat (pdf), Image (png), Data
+(csv), Package (dva)**.  You can choose which parts of your project to include, such as **All Canvas, only the Active Canvas or the Active
+Visual**.
 
 ![](/images/lab300_68.png)
 
-The file will be downloaded locally on your machine.
+The file will be **downloaded** locally on your machine.
 
 ![](/images/lab300_69.png)
 
-When you select **Print**, you can choose which parts of your project to include in the printed output, such as All Canvas, only the Active
-Canvas or the Active Visual. Etc.
+When you select **Print**, you can choose which parts of your project to include in the **printed output, such as All Canvas, only the Active
+Canvas or the Active Visual**. Etc.
 
 ![](/images/lab300_70.png)
 
