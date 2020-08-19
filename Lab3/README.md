@@ -1,5 +1,7 @@
 # Lab 300 - Using Oracle Analytics Cloud (OAC)
 
+![Oracle ADW + 0racle OAC](/images/adw+oac_banner.png)
+
 Oracle Analytics Cloud provides the industry's most comprehensive cloud analytics in a single unified platform, including everything from
 self-service visualization and powerful inline data preparation to enterprise reporting, advanced analytics, and self-learning analytics
 that deliver proactive insights.
