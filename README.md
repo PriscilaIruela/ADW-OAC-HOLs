@@ -45,9 +45,9 @@ To run the lab, you will need an Oracle Free Tier Account, with a provisioned AD
 - Want to Learn More?
 - Troubleshooting
 
-## Requirements
+## Pre-requisites
 
-In order to complete this lab you don't need any particular requirements. All the necesary steps are part of the Labs that we will cover.
+There are no pre-requisite steps for this lab. All the necesary steps are documented in the lab. 
 
 ## Let's Get Started
 
