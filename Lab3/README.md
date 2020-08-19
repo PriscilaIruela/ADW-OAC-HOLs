@@ -446,4 +446,4 @@ Canvas or the Active Visual**. Etc.
 
 ---
 
-[**<<<<< Go to Lab 2**](../README.md) | [**Go to Next Steps >>>>>**](../Next/README.md)
+[**<<<<< Go to Lab 2**](../Lab2/README.md) | [Home](../README.md) | [**Go to Next Steps >>>>>**](../Next/README.md)
