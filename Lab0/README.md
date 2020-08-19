@@ -54,7 +54,7 @@ that it is required on the **Cloud Infrastructure Sign In Page**.
 
 - **Username** is the email address that you used for registration.
 
-- **Password**, you will be prompted to set a new one, more memorable password.
+- **Password**, you will be prompted to set a new, more memorable password during the sign in process.
 
 After click **Sign in**.
 
@@ -84,9 +84,7 @@ You are now signed in to **Oracle Cloud!**
 
 ## It works
 
-You just created an Oracle Cloud Free Tier Account.
-
-Additionally you signed in with your account.
+You have just created an Oracle Cloud Free Tier Account, and then successfully logged into your new account.
 
 ## Congratulations, you are ready for the next Lab!
 

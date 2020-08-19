@@ -92,8 +92,7 @@ Choose **Oracle Autonomous Data Warehouse**.
 
 Use the following information to configure your **connection**.
 
-I recommend selecting first the autonomous database wallet file you just downloaded (cwallet.sso) in ***Client Credentials*** field so the rest
-of the values will be **autocompleted**. Later on you just have to review and modify them if need it.
+I recommend selecting first the autonomous database wallet zip file you just downloaded in ***Client Credentials*** field. It will automatically extract the required *cwallet.sso* and then **autocomplete** several of the fields for you. Later on you just have to review and modify them if need it.
 
 > **Connection Name**: WORKSHOPADWOAC
 >
@@ -177,28 +176,24 @@ Create a new project by clicking **Create Project**.
 
 ![[Data Set - Create project](/images/lab300_21.png)
 
-A new screen with a **white canvas** is open using **SH_SALES Data Set** that we have created before.
+A new screen with a **white canvas** is opened using the **SH_SALES Data Set** you created.
 
 ![OAC - White canvas](/images/lab300_22.png)
 
-Before drowning into details, let us give you a quick **explanation** of the different parts of this screen. That will help you to easily follow next
-steps.
+Before drowning into details, let us give you a quick **explanation** of the different parts of this screen. This will help you to easily follow the next steps.
 
 An **Oracle Analytics Project** consist of **three main parts** (you can see them at the top right part of the screen):
 
 ![OAC Navigation](/images/lab300_23.png)
 
 -   **Prepare**: Here is where you configure your data. You get a preview of each dataset on the project. You enrich it by adding
-    columns, hiding or renaming the available ones. You also define joins between datasets here.
+    columns, hiding or renaming the available ones. You can also define joins between datasets here.
 
--   **Visualize**: Here is where you explore and Analyze the data. You can create several canvases to hold the different visualizations you
-    define.
+-   **Visualize**: Here is where you explore and Analyze the data. You can create several canvases to hold the different visualizations you define.
 
--   **Narrate**: Here is where you create a more presentation-oriented view of the analysis you created. This tab allows you to choose
-    which insights to show and add comments and descriptions. It helps to understand your analysis journey and focus on showing the
-    results.
+-   **Narrate**: Here is where you create a more presentation-oriented view of the analysis you created. This tab allows you to choose which insights to show and add comments and descriptions. It helps to understand your analysis journey and focus on showing the results.
 
-During this lab, you will use only **Prepare** and **Visualize** tabs mainly.
+During this lab, you will use the **Prepare** and **Visualize** tabs mainly.
 
 You have already seen the **Prepare** screen on previous steps. The **Visualize** screen is this one:
 
@@ -210,7 +205,7 @@ Main areas to note here are:
 -   **Explorer**: Contains all fields from your datasets to be used in the project.
 
 -   **Properties box**: Allows you to define the properties and parameters of the selected object. If it is a column it will be
-    highlighted in blue (in the screen PROD_ID in the Explorer menu is selected) if it is a graphic from the canvas it will have a thin
+    highlighted in blue (in the screen PROD_ID in the Explorer menu is selected), if it is a graphic from the canvas it will have a thin
     blue borderline around it.
 
 -   **Graph Definition**: Contains definition of the selected Visualization, which fields to use and where (Axis, Filters, Trellis
@@ -322,14 +317,14 @@ The **Data Set** was successfully **saved**.
 
 Now we have to join the new Data Set, **SH_PRODUCT**, to the data set that we created a few steps before **SH_SALES**.
 
-You can notice that we have been redirected to the **Prepare** section of the project.
+You will notice that we have been redirected to the **Prepare** section of the project.
 
-At the **bottom of the screen**, you can see three tabs, one per each dataset and another one called **Data Diagram**. **Click** on it.
+At the **bottom of the screen**, you can see three tabs, one per each dataset and another one called **Data Diagram**. **Click** on **Data Diagram**.
 
 ![Navigation - Prepare](/images/lab300_44.png)
 
 In this tab, you can view a representation of the **different datasets** included in the project and their **relationships**. Currently, there is no
-relation defined, so you see both as isolated boxes.
+relationship defined, so you see both as isolated boxes.
 
 Hover over the imaginary line **between** them and click on the **0 number** that will appear:
 
@@ -343,8 +338,7 @@ Select **PROD_ID** under each Data Set, **SH_PRODUCTS** and **SH_SALES** in the 
 
 ![Connect Sources - SH-SALES & SH-PRODUCTS ](/images/lab300_47.png)
 
-**NOTE**: You might see a balloon warning about using **PROD_ID** as a **Measure**. Do not worry about it. It is just a kind reminder that you
-are using a column that looks like a number only as a join column, but that is exactly what we want to do.
+**NOTE**: You might see a balloon warning about using **PROD_ID** as a **Measure**. Do not worry about it. It is just a kind reminder that you are using a column that looks like a number only as a join column, but that is exactly what we want to do.
 
 ![Connect Sources - Measure](/images/lab300_48.png)
 
@@ -360,8 +354,7 @@ The **connection** between the two sources has been **created**.
 
 ![Connect Sources - Created](/images/lab300_51.png)
 
-Now that the **preparation** of the data is done, you can navigate again to **Visualize** page in the right top corner of the **Analytics Cloud Home
-Page**.
+Now that the **preparation** of the data is done, you can navigate again to **Visualize** page in the right top corner of the **Analytics Cloud Home Page**.
 
 ![OAC Navigation](/images/lab300_52.png)
 
@@ -390,7 +383,7 @@ Select **PRODUCT_CATEGORY** from **SH_PRODUCTS** and add it in **the Trellis Col
 
 ![OAC canvas Trellis Columns 2](/images/lab300_58.png)
 
-You can see now a **trend** on the **amount sold** and number of distinct customers by product category and that allows comparing the performance
+You can see now a **trend** on the **amount sold** and the number of distinct customers by product category. This allows you to compare the performance
 of each product. However, using just lines can be a bit messy. You will try now to make this graphic more appealing.
 
 Select **AMOUNT_SOLD** from the canvas and select **Bar** graph.
@@ -443,7 +436,7 @@ Canvas or the Active Visual**. Etc.
 
 ## It works
 
-You have achived:
+You have achieved:
 - Connection from Oracle Analytics Cloud to Autonomous Database.
 - Preparation of datasets.
 - Visualizations to analyse the data.
