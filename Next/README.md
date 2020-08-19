@@ -50,6 +50,7 @@ You have learned how to Upgrade your Always Free Account to a subscription model
 ## Want to learn more?
 
 If you have enjoyed the workshop, give me a star on Github: [click here](https://github.com/PriscilaIruela/ADW-OAC-HOLs)!
+
 ![Github start](../images/gthib_start.png)
 
 Please, help us to improve. [Create an issue](https://github.com/PriscilaIruela/ADW-OAC-HOLs/issues) if you think something is not quite right.
