@@ -1,5 +1,7 @@
 # Lab 100 - Provisioning your Autonomous Database instance
 
+![Autonomous Databases](/images/adb_banner2.png)
+
 Click on the hamburger **MENU** link at the upper left corner of the page.
 
 This will produce a drop-down menu, where you should select **Autonomous Data Warehouse.**
