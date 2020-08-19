@@ -2,7 +2,7 @@
 
 ![Autonomous Databases](/images/adb_banner2.png)
 
-This lab walks you through the steps to get started using the Oracle Autonomous Transaction Processing Database (ATP) on Oracle Cloud Infrastructure (OCI). You will provision a new database in just few minutes.
+This lab walks you through the steps to get started using the Oracle Autonomous Data Warehouse Database (ADW) and Oracle Analytics Cloud (OAC). You will provision a new database in just few minutes.
 
 **Self-driving**
 Automate database provisioning, tuning, and scaling.
