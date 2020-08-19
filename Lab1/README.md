@@ -2,7 +2,9 @@
 
 ![Autonomous Databases](/images/adb_banner2.png)
 
-This lab walks you through the steps to get started using the **Oracle Autonomous Data Warehouse Database (ADW)** and **Oracle Analytics Cloud (OAC)**. You will provision a new database in just few minutes.
+This lab walks you through the steps to get started using the **Oracle Autonomous Data Warehouse Database (ADW)**. You will provision a new database in just few minutes.
+
+Oracle Autonomous Databases have the following characteristics:
 
 **Self-driving**
 Automate database provisioning, tuning, and scaling.
@@ -50,6 +52,10 @@ By default, any OCI tenancy has a default ***root*** compartment, named after th
 > **Deployment Type:** Shared Infrastructure
 >
 > **Always Free:** On
+
+You can select Always Free configuration to start enjoying your Free Autonomous Database. You will have visible the Always Free logo next to the name of your database:
+
+![Always Free Logo](/images/always_free_logo.png)
 
 [We have selected Always Free Tier On to learn more about this option check the following link](https://www.oracle.com/uk/cloud/free/#always-free).
 
@@ -105,7 +111,13 @@ The provisioning process should take **under 5 minutes**.
 
 After having the Autonomous Database instance **created** and **available**, you can get a message window asking you to upgrade from 18c to 19c if you have selected 18c as a database version during the provisioning. You can **upgrade** the database release if you wish after the hands-on session, otherwise the upgrade process can take a **few minutes** and you can miss a few exercises during the session.
 
-You can now proceed onto running the next labs.
+Look around the details and get familiar with the buttons and tabs on this page.
+
+![ADB Creation Details](/images/lab100_adw_ready.png)
+
+Remember: You will have visible the Always Free logo next to the name of your database:
+
+![Always Free Logo](/images/always_free_logo.png)
 
 ## Congratulations, you are ready for the next Lab!
 

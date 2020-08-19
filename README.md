@@ -45,6 +45,10 @@ To run the lab, you will need an Oracle Free Tier Account, with a provisioned AD
 - Want to Learn More?
 - Troubleshooting
 
+## Requirements
+
+In order to complete this lab you don't need any particular requirements. All the necesary steps are part of the Labs that we will cover.
+
 ## Let's Get Started
 
 At this point, you are ready to start learning!
