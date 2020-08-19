@@ -13,9 +13,11 @@ Let's get started.
 
 I hope you could complete all the labs on this Oracle APEX and Digital Assistant labs and you learn the basic concepts from the technologies that we have use: - **Oracle Autonomous Database** - **Oracle Application Express** - **Oracle Digital Assistant**
 
-The technologies that we have covered on this workshop are using **Always Free** and **Free Trial** credits so you don't have to pay for the services that you have use.
+I hope you could complete all the labs on this ADW and OAC and you have learned the basic concepts from the technologies that we have used: - **Oracle Autonomous Database** - **OraclE Analytics Cloud**.
 
-If you want to **Upgrade** the Instances that we used, you can follow these simple steps to upgrade to your favorite subscription model.
+The technologies that we have covered on this workshop are using **Always Free** and **Free Trial** credits so you don't have to pay for the services that you have used.
+
+If you want to **Upgrade** the Instances that we used, you can follow these simple steps to upgrade to your favorite paid subscription model.
 
 [Here you can see the differences models that Oracle has available.](https://www.oracle.com/ie/cloud/pricing.html)
 
@@ -47,7 +49,7 @@ You have learned how to Upgrade your Always Free Account to a subscription model
 
 ## Want to learn more?
 
-If you enjoy the workshop, give me a star on Github: [click here](https://github.com/PriscilaIruela/ADW-OAC-HOLs)!
+If you have enjoyed the workshop, give me a star on Github: [click here](https://github.com/PriscilaIruela/ADW-OAC-HOLs)!
 ![Github start](../images/gthib_start.png)
 
 Please, help us to improve. [Create an issue](https://github.com/PriscilaIruela/ADW-OAC-HOLs/issues) if you think something is not quite right.

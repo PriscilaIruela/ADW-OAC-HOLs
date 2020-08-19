@@ -7,17 +7,17 @@ This lab walks you through the steps to get started using the **Oracle Autonomou
 Oracle Autonomous Databases have the following characteristics:
 
 **Self-driving**
-Automate database provisioning, tuning, and scaling.
+Automates database provisioning, tuning, and scaling.
 
 Provisions highly available databases, configures and tunes for specific workloads, and scales compute resources when needed, all done automatically.
 
 **Self-securing**
-Automate data protection and security.
+Automates data protection and security.
 
 Protect sensitive and regulated data automatically, patch your database for security vulnerabilities, and prevent unauthorized access—all with Oracle Autonomous Database.
 
 **Self-repairing**
-Automate failure detection, failover, and repair.
+Automates failure detection, failover, and repair.
 
 Detect and protect from system failures and user errors automatically and provide failover to standby databases with zero data loss.
 
@@ -77,11 +77,11 @@ Under **Create administration credentials** section:
 
 > **Administrator Password:** Enter any password you wish to use nothing the specific requirements imposed by ADW. A suggested password for this lab is ADWwelcome-1234.
 >
-> ***Reminder:** Note your password in a safe location as this cannot be reset.*
+> ***Reminder:** Note your password in a safe location as this cannot be easily reset.*
 
 Under **Choose network access** section:
 
-> Leave **'Allow secure access from everywhere'**: *On*
+> Select **'Allow secure access from everywhere'**: *On*
 >
 > Select **Configure access control rules:** *Off*
 
@@ -111,7 +111,8 @@ The provisioning process should take **under 5 minutes**.
 
 After having the Autonomous Database instance **created** and **available**, you can get a message window asking you to upgrade from 18c to 19c if you have selected 18c as a database version during the provisioning. You can **upgrade** the database release if you wish after the hands-on session, otherwise the upgrade process can take a **few minutes** and you can miss a few exercises during the session.
 
-Look around the details and get familiar with the buttons and tabs on this page.
+This page is known as the **Autonomous Database Details Page**. It provides you with status information about your database, and its configuration. Get **familiar** with the buttons and tabs on this page.
+
 
 ![ADB Creation Details](/images/lab100_adw_ready.png)
 
@@ -121,7 +122,7 @@ Remember: You will have visible the Always Free logo next to the name of your da
 
 ## It works
 
-You just created an Autonomous Database with the latest features of Oracle Databases.
+You have just created an Autonomous Database with the latest features of Oracle Databases.
 
 ## Congratulations, you are ready for the next Lab!
 
