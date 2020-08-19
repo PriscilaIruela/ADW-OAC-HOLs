@@ -2,11 +2,11 @@
 
 ![Oracle ADW + 0racle OAC](/images/adw+oac_banner.png)
 
-Oracle Analytics Cloud provides the industry's most comprehensive cloud analytics in a single unified platform, including everything from
+**Oracle Analytics Cloud** provides the industry's most comprehensive cloud analytics in a single unified platform, including everything from
 self-service visualization and powerful inline data preparation to enterprise reporting, advanced analytics, and self-learning analytics
 that deliver proactive insights.
 
-You are going to use an Oracle Analytics Cloud instance to give your end users a self-service approach to analysing the data.
+You are going to use an **Oracle Analytics Cloud** instance to give your end users a self-service approach to analysing the data.
 
 In this lab, you will:
 
@@ -16,9 +16,9 @@ In this lab, you will:
 
 ## Create the connection from Oracle Analytics Cloud to Autonomous Database
 
-Oracle Autonomous Database only accepts secure connections to the database. This requires a *\'wallet\'* file that contains the SQL\*NET
+**Oracle Autonomous Database** only accepts secure connections to the database. This requires a *\'wallet\'* file that contains the SQL\*NET
 configuration files and the secure connection information. Wallets are used by client utilities such as SQL Developer, SQL\*Plus etc. For this
-lab, you will use this same wallet mechanism to make a connection from OAC to the Autonomous Database.
+lab, you will use this same wallet mechanism to make a connection from OAC to the **Autonomous Database**.
 
 ***Note**: This section assumes you have already created your Oracle Analytics Cloud instance as part of the 'Lab 200 - Provisioning your
 Oracle Analytics Cloud (OAC) instance\' section. If not, please return to the beginning of Lab200 and go through the instance creation.*
@@ -27,17 +27,17 @@ Oracle Analytics Cloud (OAC) instance\' section. If not, please return to the be
 
 You need first to download the wallet file containing your credentials. There are two types of wallet:
 
--   Instance Wallet: Wallet for a single database only; this provides a database-specific wallet.
+-   **Instance Wallet**: Wallet for a single database only; this provides a database-specific wallet.
 
--   Regional Wallet: Wallet for all Autonomous Databases for a given tenant and region (this includes all service instances that a cloud
+-   **Regional Wallet**: Wallet for all Autonomous Databases for a given tenant and region (this includes all service instances that a cloud
     account owns).
 
 ***Note**: Oracle recommends you provide a database-specific wallet, using Instance Wallet, to end users and for application use whenever
 possible. Regional wallets should only be used for administrative purposes that require potential access to all Autonomous Databases
 within a region.*
 
-In the Oracle Console Home Page, click on the hamburger **MENU** link at the upper left corner of the page and go to the **Autonomous Data
-Warehouse** section.
+In the **Oracle Console Home** Page, click on the hamburger **MENU** link at the upper left corner of the page and go to the ****Autonomous Data
+Warehouse**** section.
 
 ![Oracle Console SignIn](/images/lab300_1.png)
 
@@ -47,9 +47,9 @@ You can see all the ADW instances that you have created.
 
 **Select** the ADW instance that we created before.
 
-On the \"*Autonomous Database Details*\" page for your Autonomous Database, click the **DB Connection** button.
+On the \"***Autonomous Database Details***\" page for your Autonomous Database, click the **DB Connection** button.
 
-You can access to the '*Autonomous Database Details*' page using the cloud console page.
+You can access to the '***Autonomous Database Details***' page using the cloud console page.
 
 ![](/images/lab300_3.png)
 
@@ -57,8 +57,8 @@ This will open a pop-up window. Select Wallet Type **Instance Wallet** and then 
 
 ![](/images/lab300_4.png)
 
-You will be asked to provide a password for the wallet. The password must meet the rules for the Oracle Cloud password complexity. This
-password is a password that you need to remember for your wallet. You can use the admin password that you created before.
+You will be asked to provide a **password** for the wallet. The password must meet the rules for the **Oracle Cloud password** complexity. This
+password is a password that you need to remember for your **wallet**. You can use the **admin password** that you created before.
 
 Select **Download** and save the wallet to your local machine.
 
@@ -70,18 +70,18 @@ You can now **Close** the Database Connection pop up window.
 
 ### Use the Wallet in Oracle Analytics Cloud
 
-Return to the Oracle Cloud Infrastructure console and click on the menu icon on the left.
+**Return** to the **Oracle Cloud Infrastructure console** and click on the menu icon on the left.
 
 Navigate to **Analytics** and then **Analytics Cloud**.
 
 ![](/images/lab300_7.png)
 
-Open the Cloud Analytics URL associated with your instance (the one that we created in Lab 200) by using the dots menu button on the right-hand
+**Open** the Cloud Analytics  a**URL**ssociated with your instance (the one that we created in Lab 200) by using the dots menu button on the right-hand
 side of your instance information and selecting **Open URL**.
 
 ![](/images/lab300_8.png)
 
-The Oracle Analytics page will open in a new browser window/tab.
+The Oracle Analytics page will open in a new browser **window/tab**.
 
 On the top right-hand side of the screen, click **Create**, and then **Connection**.
 
@@ -91,10 +91,10 @@ Choose **Oracle Autonomous Data Warehouse**.
 
 ![](/images/lab300_10.png)
 
-Use the following information to configure your connection.
+Use the following information to configure your **connection**.
 
 I recommend selecting first the autonomous database wallet file you just downloaded (cwallet.sso) in ***Client Credentials*** field so the rest
-of the values will be autocompleted. Later on you just have to review and modify them if need it.
+of the values will be **autocompleted**. Later on you just have to review and modify them if need it.
 
 > **Connection Name**: WORKSHOPADWOAC
 >
@@ -113,24 +113,23 @@ of the values will be autocompleted. Later on you just have to review and modify
 
 ## Prepare the dataset
 
-When you create a project, you add one or more data sets containing the data that you want to visualize and explore. Data sets contain data
+When you create a project, you add one or more **data sets** containing the data that you want to **visualize and explore**. Data sets contain data
 from subject areas, Oracle Applications, databases, or uploaded data files such as spreadsheets. You can also add multiple data sets to your
 existing projects.
 
-On the top right-hand side of the *Oracle Analytics* Home Page, click **Create**, and then **Data Set**.
+On the top right-hand side of the ***Oracle Analytics*** Home Page, click **Create**, and then **Data Set**.
 
 ![](/images/lab300_12.png)
 
-Select **WORKSHOPADWOAC**, the connection you created in the previous step.
+Select **WORKSHOPADWOAC**, the connection you **created** in the previous step.
 
 ![](/images/lab300_13.png)
 
-In the next window, click on the **SH** (Sales History) schema.
+In the next window, click on the **SH** (Sales History) **schema**.
 
-The SH schema provides a small data set you can use to run the sample queries in the [Oracle Database Data Warehousing Guide](https://docs.oracle.com/pls/topic/lookup?ctx=en/cloud/paas/autonomous-data-warehouse-cloud/user&id=DWHSG8664)
+The SH schema provides a small data set you can use to run the sample queries in the [Oracle Database Data Warehousing Guide](https://docs.oracle.com/pls/topic/lookup?ctx=en/cloud/paas/autonomous-data-warehouse-cloud/user&id=DWHSG8664).
 
-For more information on the SH schema see *Sample Schemas* and [*Schema Diagrams*](https://docs.oracle.com/pls/topic/lookup?ctx=en/cloud/paas/autonomous-data-warehouse-cloud/user&id=COMSC112)
-in the following [link](https://docs.oracle.com/pls/topic/lookup?ctx=en/cloud/paas/autonomous-data-warehouse-cloud/user&id=COMSC112).
+For more information on the SH schema see *Sample Schemas* and [*Schema Diagrams*](https://docs.oracle.com/pls/topic/lookup?ctx=en/cloud/paas/autonomous-data-warehouse-cloud/user&id=COMSC112). 
 
 ![](/images/lab300_14.png)
 
