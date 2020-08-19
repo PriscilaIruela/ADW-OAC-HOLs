@@ -66,7 +66,7 @@ When you have completed the required fields, scroll down and click on the blue *
 
 ![ADB Creation](/images/lab100_6.png)
 
-The Autonomous Database Details page will show information about your new instance. You should notice the various menu buttons that help you manage your new instance -- because the instance is currently being provisioned all the management buttons are greyed out.
+The Autonomous Database **Details** page will show information about your new instance. You should notice the various menu buttons that help you manage your new instance -- because the instance is currently being provisioned all the management buttons are greyed out.
 
 ![ADB Creation Provisioning](/images/lab100_7.png)
 
