@@ -37,7 +37,9 @@ After you perform this action, your database will be upgrade to **Paid** subscri
 
 ![Always Free Database Details Confirmation Updating](../images/always_free_upgrade_confirmation_updating.png)
 
-You can see that **Instance Type** information has changed from **Free Upgrade to Paid** to **Paid**:
+You can observe two things:
+1. **Instance Type** information has changed from **Free Upgrade to Paid** to **Paid**
+2. The **Always Free** Logo next to the **Database Name** is not there anymore.
 
 ![Always Free Database Details Paid](../images/always_free_upgrade_paid.png)
 
