@@ -3,7 +3,7 @@
 
 ## Lab Introduction
 
-![Autonomous](./images/adb_banner2.png)
+![Autonomous](./images/adb_oac_banner2.png)
 
 In this hands-on lab, you will get first-hand experience of using Oracle Cloud, **Oracle Autonomous Database (ADB)** and **Oracle Analytics Cloud (OAC)**.
 
