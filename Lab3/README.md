@@ -174,7 +174,7 @@ The **Data Set** was successfully **added**.
 
 Create a new project by clicking **Create Project**.
 
-![[Data Set - Create project](/images/lab300_21.png)
+![Data Set - Create project](/images/lab300_21.png)
 
 A new screen with a **white canvas** is opened using the **SH_SALES Data Set** you created.
 
@@ -364,7 +364,7 @@ In the canvas go to **TIME_ID** section, **Show by** and select **Quarter** inst
 
 Apply the **Quarter** filter and the graph will **change dynamically**.
 
-!OAC canvas Quarter Change Dynamically[](/images/lab300_54.png)
+![OAC canvas Quarter Change Dynamically](/images/lab300_54.png)
 
 We will eliminate the **Linear Trend Line** that we have in the graph.
 
