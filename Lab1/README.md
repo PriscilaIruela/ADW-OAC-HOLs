@@ -23,7 +23,7 @@ Detect and protect from system failures and user errors automatically and provid
 
 Watch our short video that explains Lab 1 - Provisioning your Autonomous Database instance:
 
-[](youtube:IfWJhnodAxk)
+[![ADW Provisioning](https://img.youtube.com/vi/IfWJhnodAxk/hqdefault.jpg)](https://youtu.be/IfWJhnodAxk)
 
 
 ## Create a new Autonomous Data Warehouse Datatabase
