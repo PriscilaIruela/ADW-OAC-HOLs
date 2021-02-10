@@ -21,6 +21,11 @@ Automates failure detection, failover, and repair.
 
 Detect and protect from system failures and user errors automatically and provide failover to standby databases with zero data loss.
 
+Watch our short video that explains Lab 1 - Provisioning your Autonomous Database instance:
+
+[](youtube:IfWJhnodAxk)
+
+
 ## Create a new Autonomous Data Warehouse Datatabase
 
 Click on the hamburger **MENU** link at the upper left corner of the page.
@@ -61,7 +66,7 @@ You can select Always Free configuration to start enjoying your Free Autonomous 
 
 [We have selected 'Always Free Tier On'. To learn more about this option check the following link](https://www.oracle.com/uk/cloud/free/#always-free).
 
-![ADB Creation Details](/images/lab100_3.png)
+![ADB Creation Details](/images/lab100_3_2.png)
 
 > **Choose Database version:** 19c
 >

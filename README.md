@@ -21,6 +21,15 @@ With **Oracle Analytics Cloud**, you also get flexible service management capa
 
 To run the lab, you will need an Oracle Free Tier Account, with a provisioned ADW instance and a a provisioned OAC instance. This pre-requisite guide will take you step-by-step through how to get the account and set the instance up, to be ready to start the lab.
 
+Watch our short video that explains **Oracle Autonomous Database (ADB)**:
+
+[](youtube:GmyBsDn0VGI)
+
+And another short video that explains **Oracle Analytics Cloud (OAC)** in detail:
+
+[](youtube:ptA6CnncfB8)
+
+
 ## Table of Contents
 
 [Get Started - Signing Up for your Oracle Cloud Free Tier Account](/Lab0/README.md)

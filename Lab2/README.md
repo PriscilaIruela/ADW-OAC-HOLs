@@ -8,6 +8,10 @@ Your Oracle Cloud Free Tier account will use the Oracle Cloud Free Trial **credi
 
 Provisioning an Oracle Analytics Cloud instance can take over **40 minutes**.
 
+Watch our short video that explains Lab 2 - Provisioning your Oracle Analytics Cloud instance:
+
+[](youtube:ZAqXlhivQCg)
+
 Return to the Oracle Cloud Infrastructure Console accessing from **Oracle Home Page** (oracle.com) and sign in into your cloud account.
 Click in **View Account** and **Sign in to Cloud**.
 

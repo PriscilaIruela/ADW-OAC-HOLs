@@ -434,6 +434,10 @@ Canvas or the Active Visual**. Etc.
 
 ![OAC canvas - Print](/images/lab300_70.png)
 
+Watch our short recap video that includes an outlook of other functionalities of **Oracle Autonomous Database (ADB)** and **Oracle Analytics Cloud (OAC)**:
+
+[](youtube:/vlojHIcqKBc)
+
 ## It works
 
 You have achieved:
