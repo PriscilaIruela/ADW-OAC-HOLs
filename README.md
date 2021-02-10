@@ -23,11 +23,11 @@ To run the lab, you will need an Oracle Free Tier Account, with a provisioned AD
 
 Watch our short video that explains **Oracle Autonomous Database (ADB)**:
 
-[](youtube:GmyBsDn0VGI)
+[![ADW Overview](https://img.youtube.com/vi/GmyBsDn0VGI/hqdefault.jpg)](https://youtu.be/GmyBsDn0VGI)
 
 And another short video that explains **Oracle Analytics Cloud (OAC)** in detail:
 
-[](youtube:ptA6CnncfB8)
+[![OAC Overview](https://img.youtube.com/vi/ptA6CnncfB8/hqdefault.jpg)](https://youtu.be/ptA6CnncfB8)
 
 
 ## Table of Contents
