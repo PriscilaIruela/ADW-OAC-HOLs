@@ -436,7 +436,7 @@ Canvas or the Active Visual**. Etc.
 
 Watch our short recap video that includes an outlook of other functionalities of **Oracle Autonomous Database (ADB)** and **Oracle Analytics Cloud (OAC)**:
 
-[![ADW & OAC Recap](https://img.youtube.com/vi/vlojHIcqKBc/hqdefault.jpg)](https://youtu.be/Iz4lRgnql4o)
+[![ADW & OAC Recap](https://img.youtube.com/vi/Iz4lRgnql4o/hqdefault.jpg)](https://youtu.be/Iz4lRgnql4o)
 
 
 ## It works
